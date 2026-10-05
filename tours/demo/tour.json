@@ -660,22 +660,23 @@
    ],
    "yaw": 88,
    "roomId": "chodba-spolecna",
-   "caption": "Společná chodba spojuje hlavní byt a garsonku: vpravo otevřený vstup do garsonky, vzadu zavřené dveře bytu č. 2. Vlevo je podle výkresu schodiště, ve 3D tam stojí zeď. Model podle půdorysu, bez fotek.",
+   "caption": "Společná chodba k garsonce; strana ke schodišti je ve 3D zeď. Model podle půdorysu, bez fotek.",
    "dwellS": 5,
    "pitch": -3
   },
   {
    "id": "garsonka",
    "position": [
-    3.4,
+    1.6,
     0,
-    2
+    3.6
    ],
-   "yaw": -50,
+   "yaw": -58,
    "roomId": "garsonka",
-   "caption": "Samostatná část s vlastním vstupem ze společné chodby, dnes garsonka: pokoj asi 23 m², předsíň a koupelna. Model podle půdorysu, bez fotek.",
-   "dwellS": 5,
-   "pitch": -4
+   "caption": "Garsonka asi 23 m², předsíň a koupelna. Model podle půdorysu bez fotek, vybavení je předpoklad.",
+   "dwellS": 6,
+   "pitch": -4,
+   "photoId": "foto-g1"
   },
   {
    "id": "koupelna",
@@ -751,7 +752,7 @@
     2.5
    ],
    "title": "Samostatná garsonka",
-   "text": "Součástí bytu je samostatná část s vlastním vstupem ze společné chodby, dnes garsonka s vlastním sociálním zázemím. Lze ji pronajímat, nebo propojit zpět s bytem. Model podle půdorysu, bez fotek.",
+   "text": "Součástí bytu je samostatná část s vlastním vstupem ze společné chodby, dnes garsonka s vlastním sociálním zázemím. Lze ji pronajímat, nebo propojit zpět s bytem. Model podle půdorysu, bez fotek: kuchyňská linka (na výkresu není) a vybavení koupelny jsou předpoklad podle hlavního bytu.",
    "kind": "info"
   },
   {
@@ -844,6 +845,24 @@
     "floor": "pine",
     "wall": "neutral",
     "floorAngle": 90,
+    "lights": [
+     {
+      "x": 1.83,
+      "z": 2.2,
+      "y": 2.25,
+      "intensity": 13,
+      "distance": 7,
+      "fixture": "none"
+     },
+     {
+      "x": 4.93,
+      "z": 2.2,
+      "y": 2.25,
+      "intensity": 13,
+      "distance": 7,
+      "fixture": "none"
+     }
+    ],
     "lightId": "sw-garsonka",
     "cornice": false
    },
@@ -905,6 +924,14 @@
      "y0": 2.1,
      "y1": 3.1
     },
+    "lights": [
+     {
+      "x": 5.46,
+      "z": 4.58,
+      "intensity": 8.4,
+      "distance": 4
+     }
+    ],
     "lightId": "sw-garsonka-koupelna",
     "cornice": false
    },
@@ -999,6 +1026,7 @@
      }
     ],
     "floorAngle": 45,
+    "ceilingHeight": 3,
     "cornice": false
    },
    {
@@ -1341,7 +1369,7 @@
       "height": 2.1,
       "kind": "door",
       "id": "dv-vstup-garsonka",
-      "hinge": "a",
+      "hinge": "b",
       "swing": -1,
       "flush": true,
       "open": true
@@ -2219,7 +2247,7 @@
     "facing": "E",
     "w": 1.2,
     "d": 0.12,
-    "y": 3.02,
+    "y": 2.92,
     "h": 0.08,
     "variant": "tube"
    },
@@ -2399,25 +2427,36 @@
     "id": "garsonka-sprcha",
     "kind": "bathtub",
     "roomId": "garsonka-koupelna",
-    "x": 5.95,
-    "z": 3.81,
-    "facing": "S",
+    "x": 5.96,
+    "z": 3.782,
+    "facing": "W",
     "w": 0.8,
     "d": 0.8,
-    "h": 0.15,
-    "variant": "screen",
-    "decor": false
+    "h": 2,
+    "variant": "walkin"
    },
    {
     "id": "garsonka-umyvadlo",
     "kind": "basin",
     "roomId": "garsonka-koupelna",
     "x": 6.15,
-    "z": 4.6,
+    "z": 4.57,
     "facing": "W",
-    "w": 0.45,
-    "d": 0.36,
+    "w": 0.5,
+    "d": 0.42,
     "y": 0.8
+   },
+   {
+    "id": "garsonka-zrcadlo",
+    "kind": "mirror",
+    "roomId": "garsonka-koupelna",
+    "x": 6.35,
+    "z": 4.57,
+    "facing": "W",
+    "w": 0.5,
+    "d": 0.02,
+    "h": 0.7,
+    "y": 1.45
    },
    {
     "id": "garsonka-wc",
@@ -2429,6 +2468,160 @@
     "w": 0.36,
     "d": 0.55,
     "variant": "wallhung"
+   },
+   {
+    "id": "garsonka-zebrik",
+    "kind": "towelRadiator",
+    "roomId": "garsonka-koupelna",
+    "x": 5.1,
+    "z": 5.751,
+    "facing": "N",
+    "w": 0.5,
+    "d": 0.06,
+    "h": 1.2,
+    "y": 0.25,
+    "color": 15921904,
+    "variant": "bare"
+   },
+   {
+    "id": "garsonka-linka",
+    "kind": "kitchenRun",
+    "roomId": "garsonka",
+    "x": 5.185,
+    "z": 2.956,
+    "facing": "N",
+    "w": 1.39,
+    "d": 0.6,
+    "h": 0.9,
+    "color": 16053490,
+    "topColor": 11247511,
+    "parts": [
+     "hob",
+     "oven",
+     "hood",
+     "uppers",
+     "backsplash",
+     "sink"
+    ],
+    "hobAt": 0.395,
+    "sinkAt": -0.295,
+    "decor": false,
+    "backColor": 8288111,
+    "handleColor": 12896204,
+    "plinthColor": 16053490
+   },
+   {
+    "id": "garsonka-lednice",
+    "kind": "fridge",
+    "roomId": "garsonka",
+    "x": 6.185,
+    "z": 2.941,
+    "facing": "N",
+    "w": 0.58,
+    "d": 0.63,
+    "h": 1.5
+   },
+   {
+    "id": "garsonka-radiator-1",
+    "kind": "radiator",
+    "roomId": "garsonka",
+    "x": 1.765,
+    "z": 0.732,
+    "facing": "S",
+    "w": 0.65,
+    "d": 0.1,
+    "h": 0.55,
+    "color": 15921904
+   },
+   {
+    "id": "garsonka-garnyz-1",
+    "kind": "curtain",
+    "roomId": "garsonka",
+    "x": 1.765,
+    "z": 0.742,
+    "facing": "S",
+    "w": 1.44,
+    "d": 0.07,
+    "y": 3,
+    "color": 4802371,
+    "variant": "rod",
+    "solid": false
+   },
+   {
+    "id": "garsonka-radiator-2",
+    "kind": "radiator",
+    "roomId": "garsonka",
+    "x": 3.34,
+    "z": 0.732,
+    "facing": "S",
+    "w": 0.65,
+    "d": 0.1,
+    "h": 0.55,
+    "color": 15921904
+   },
+   {
+    "id": "garsonka-garnyz-2",
+    "kind": "curtain",
+    "roomId": "garsonka",
+    "x": 3.34,
+    "z": 0.742,
+    "facing": "S",
+    "w": 1.435,
+    "d": 0.07,
+    "y": 3,
+    "color": 4802371,
+    "variant": "rod",
+    "solid": false
+   },
+   {
+    "id": "garsonka-radiator-3",
+    "kind": "radiator",
+    "roomId": "garsonka",
+    "x": 4.907,
+    "z": 0.732,
+    "facing": "S",
+    "w": 0.65,
+    "d": 0.1,
+    "h": 0.55,
+    "color": 15921904
+   },
+   {
+    "id": "garsonka-garnyz-3",
+    "kind": "curtain",
+    "roomId": "garsonka",
+    "x": 4.907,
+    "z": 0.742,
+    "facing": "S",
+    "w": 1.42,
+    "d": 0.07,
+    "y": 3,
+    "color": 4802371,
+    "variant": "rod",
+    "solid": false
+   },
+   {
+    "id": "garsonka-svitidlo-1",
+    "kind": "pendant",
+    "roomId": "garsonka",
+    "x": 1.83,
+    "z": 2.2,
+    "facing": "S",
+    "w": 0.3,
+    "d": 0.3,
+    "y": 2.1,
+    "variant": "sphere"
+   },
+   {
+    "id": "garsonka-svitidlo-2",
+    "kind": "pendant",
+    "roomId": "garsonka",
+    "x": 4.93,
+    "z": 2.2,
+    "facing": "S",
+    "w": 0.3,
+    "d": 0.3,
+    "y": 2.1,
+    "variant": "sphere"
    }
   ]
  },
@@ -2580,7 +2773,11 @@
      "dv-koupelna-g",
      "dv-terasa-1a",
      "dv-terasa-1b"
-    ]
+    ],
+    "angles": {
+     "dv-kuchyn-l": 135,
+     "dv-kuchyn-p": 135
+    }
    }
   },
   {
@@ -2699,6 +2896,124 @@
    }
   },
   {
+   "id": "foto-g1",
+   "url": "fotky/foto-g1.jpg",
+   "thumb": "fotky/mini-g1.jpg",
+   "roomId": "garsonka",
+   "position": [
+    1.6,
+    1.4,
+    3.6
+   ],
+   "yaw": -58,
+   "hfov": 96,
+   "offsetY": 0,
+   "aspect": 1.5,
+   "title": "Garsonka – pokoj (ilustrace)",
+   "caption": "Prázdný pokoj garsonky asi 23 m² podle půdorysu, okna do ulice, základní kuchyňská linka.",
+   "illustration": {
+    "note": "Místnost nebyla nafocena: ilustrace podle půdorysu, 3D model převedený AI. Linka je návrh (na výkresu není), výhled z oken a detaily jsou vymyšlené."
+   },
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-predsin-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   }
+  },
+  {
+   "id": "foto-g3",
+   "url": "fotky/foto-g3.jpg",
+   "thumb": "fotky/mini-g3.jpg",
+   "roomId": "garsonka",
+   "position": [
+    1.1,
+    1.4,
+    0.95
+   ],
+   "yaw": -122,
+   "hfov": 90,
+   "offsetY": 0,
+   "aspect": 1.5,
+   "title": "Garsonka – kuchyňská linka (ilustrace)",
+   "caption": "Pokoj garsonky s návrhem základní kuchyňské linky u stěny koupelny; vpravo dveře do předsíně.",
+   "illustration": {
+    "note": "Místnost nebyla nafocena: ilustrace podle půdorysu, 3D model převedený AI. Linka a lednice jsou návrh (na výkresu nejsou), detaily jsou vymyšlené."
+   },
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-predsin-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   },
+   "pitch": -6
+  },
+  {
+   "id": "foto-g2",
+   "url": "fotky/foto-g2.jpg",
+   "thumb": "fotky/mini-g2.jpg",
+   "roomId": "garsonka-koupelna",
+   "position": [
+    4.48,
+    1.28,
+    4.58
+   ],
+   "yaw": -89,
+   "hfov": 97,
+   "offsetY": -0.1,
+   "aspect": 1.5,
+   "title": "Garsonka – koupelna (ilustrace)",
+   "caption": "Koupelna garsonky podle půdorysu: sprchový kout, umyvadlo se zrcadlem a závěsné WC.",
+   "illustration": {
+    "note": "Místnost nebyla nafocena: ilustrace podle půdorysu, 3D model převedený AI. Vybavení je předpoklad podle výkresu, detaily (obklad, kování, sklo sprchy) jsou vymyšlené."
+   },
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-koupelna-g",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   }
+  },
+  {
    "id": "foto-13",
    "url": "fotky/foto-13.jpg",
    "thumb": "fotky/mini-13.jpg",
@@ -2731,7 +3046,10 @@
      "dv-koupelna-g",
      "dv-terasa-1a",
      "dv-terasa-1b"
-    ]
+    ],
+    "angles": {
+     "dv-koupelna": 90
+    }
    },
    "staging": [
     {
