@@ -1,0 +1,3006 @@
+{
+ "version": 1,
+ "title": "Byt 3+1, Krčská – Praha 4",
+ "source": "demo",
+ "units": "m",
+ "spawn": {
+  "position": [
+   7.4,
+   0,
+   7
+  ],
+  "yaw": -118
+ },
+ "settings": {
+  "eyeHeight": 1.65,
+  "walkSpeed": 1.4,
+  "runMultiplier": 2.2
+ },
+ "floorPlan": {
+  "rooms": [
+   {
+    "id": "garsonka",
+    "name": "Garsonka – pokoj",
+    "areaM2": 23.1,
+    "polygon": [
+     [
+      0.286,
+      0.672
+     ],
+     [
+      6.48,
+      0.672
+     ],
+     [
+      6.48,
+      3.256
+     ],
+     [
+      4.45,
+      3.256
+     ],
+     [
+      4.45,
+      3.865
+     ],
+     [
+      2.686,
+      3.865
+     ],
+     [
+      2.686,
+      5.781
+     ],
+     [
+      0.286,
+      5.781
+     ]
+    ]
+   },
+   {
+    "id": "garsonka-predsin",
+    "name": "Garsonka – předsíň",
+    "areaM2": 3,
+    "polygon": [
+     [
+      2.786,
+      3.975
+     ],
+     [
+      4.45,
+      3.975
+     ],
+     [
+      4.45,
+      5.781
+     ],
+     [
+      2.786,
+      5.781
+     ]
+    ]
+   },
+   {
+    "id": "garsonka-koupelna",
+    "name": "Garsonka – koupelna",
+    "areaM2": 4.3,
+    "polygon": [
+     [
+      4.56,
+      3.381
+     ],
+     [
+      6.36,
+      3.381
+     ],
+     [
+      6.36,
+      5.781
+     ],
+     [
+      4.56,
+      5.781
+     ]
+    ]
+   },
+   {
+    "id": "pokoj-sever",
+    "name": "Pokoj – severní",
+    "areaM2": 20,
+    "polygon": [
+     [
+      6.73,
+      0.672
+     ],
+     [
+      10.645,
+      0.672
+     ],
+     [
+      10.645,
+      5.781
+     ],
+     [
+      6.73,
+      5.781
+     ]
+    ]
+   },
+   {
+    "id": "kuchyn",
+    "name": "Kuchyň",
+    "areaM2": 15.2,
+    "polygon": [
+     [
+      6.736,
+      6.261
+     ],
+     [
+      10.645,
+      6.261
+     ],
+     [
+      10.645,
+      9.729
+     ],
+     [
+      8.4,
+      9.729
+     ],
+     [
+      8.4,
+      10.72
+     ],
+     [
+      6.736,
+      10.72
+     ]
+    ]
+   },
+   {
+    "id": "wc",
+    "name": "WC",
+    "areaM2": 1.5,
+    "polygon": [
+     [
+      8.5,
+      9.839
+     ],
+     [
+      10.245,
+      9.839
+     ],
+     [
+      10.245,
+      10.72
+     ],
+     [
+      8.5,
+      10.72
+     ]
+    ]
+   },
+   {
+    "id": "chodba",
+    "name": "Chodba",
+    "areaM2": 1.3,
+    "polygon": [
+     [
+      6.728,
+      10.91
+     ],
+     [
+      7.827,
+      10.91
+     ],
+     [
+      7.827,
+      12.082
+     ],
+     [
+      6.728,
+      12.082
+     ]
+    ]
+   },
+   {
+    "id": "koupelna",
+    "name": "Koupelna",
+    "areaM2": 3.2,
+    "polygon": [
+     [
+      8.047,
+      10.91
+     ],
+     [
+      10.816,
+      10.91
+     ],
+     [
+      10.816,
+      12.082
+     ],
+     [
+      8.047,
+      12.082
+     ]
+    ]
+   },
+   {
+    "id": "pokoj-terasa",
+    "name": "Pokoj s terasou",
+    "areaM2": 19,
+    "polygon": [
+     [
+      6.513,
+      12.422
+     ],
+     [
+      10.693,
+      12.422
+     ],
+     [
+      10.693,
+      16.977
+     ],
+     [
+      6.513,
+      16.977
+     ]
+    ]
+   },
+   {
+    "id": "terasa",
+    "name": "Terasa",
+    "areaM2": 9.3,
+    "polygon": [
+     [
+      4.708,
+      10.964
+     ],
+     [
+      6.128,
+      10.964
+     ],
+     [
+      6.128,
+      12.422
+     ],
+     [
+      6.068,
+      12.422
+     ],
+     [
+      6.068,
+      12.77
+     ],
+     [
+      6.33,
+      12.77
+     ],
+     [
+      6.33,
+      13.783
+     ],
+     [
+      6.068,
+      13.783
+     ],
+     [
+      6.068,
+      14.88
+     ],
+     [
+      6.33,
+      14.88
+     ],
+     [
+      6.33,
+      15.914
+     ],
+     [
+      6.068,
+      15.914
+     ],
+     [
+      6.068,
+      17.336
+     ],
+     [
+      4.708,
+      17.336
+     ]
+    ]
+   },
+   {
+    "id": "chodba-spolecna",
+    "name": "Společná chodba",
+    "areaM2": 5.1,
+    "polygon": [
+     [
+      2.544,
+      6.261
+     ],
+     [
+      6.286,
+      6.261
+     ],
+     [
+      6.286,
+      7.621
+     ],
+     [
+      2.544,
+      7.621
+     ]
+    ]
+   }
+  ],
+  "image": {
+   "url": "pudorys.jpg"
+  },
+  "imageTransform": {
+   "position": [
+    2.8145,
+    8.5418
+   ],
+   "rotationDeg": 0,
+   "scale": 0.0157289
+  },
+  "walls": [
+   [
+    0.161,
+    0.372,
+    10.88,
+    0.372
+   ],
+   [
+    0.161,
+    0.372,
+    0.161,
+    6.021
+   ],
+   [
+    0.161,
+    6.021,
+    2.826,
+    6.021
+   ],
+   [
+    3.726,
+    6.021,
+    6.605,
+    6.021
+   ],
+   [
+    6.511,
+    6.021,
+    6.511,
+    6.559
+   ],
+   [
+    6.511,
+    7.459,
+    6.511,
+    10.815
+   ],
+   [
+    10.88,
+    0.372,
+    10.88,
+    10.815
+   ],
+   [
+    10.966,
+    10.815,
+    10.966,
+    12.252
+   ],
+   [
+    10.903,
+    12.252,
+    10.903,
+    17.187
+   ],
+   [
+    6.428,
+    10.815,
+    6.428,
+    12.252
+   ],
+   [
+    6.291,
+    12.252,
+    6.291,
+    12.77
+   ],
+   [
+    6.422,
+    12.77,
+    6.422,
+    12.822
+   ],
+   [
+    6.422,
+    13.731,
+    6.422,
+    13.783
+   ],
+   [
+    6.291,
+    13.783,
+    6.291,
+    14.88
+   ],
+   [
+    6.422,
+    14.88,
+    6.422,
+    14.932
+   ],
+   [
+    6.422,
+    15.862,
+    6.422,
+    15.914
+   ],
+   [
+    6.291,
+    15.914,
+    6.291,
+    17.187
+   ],
+   [
+    6.291,
+    17.187,
+    10.903,
+    17.187
+   ],
+   [
+    4.549,
+    10.739,
+    6.428,
+    10.739
+   ],
+   [
+    6.605,
+    0.372,
+    6.605,
+    6.021
+   ],
+   [
+    6.605,
+    6.021,
+    7.941,
+    6.021
+   ],
+   [
+    9.446,
+    6.021,
+    10.88,
+    6.021
+   ],
+   [
+    6.42,
+    3.319,
+    6.42,
+    6.021
+   ],
+   [
+    4.505,
+    3.319,
+    6.605,
+    3.319
+   ],
+   [
+    4.505,
+    3.319,
+    4.505,
+    4.128
+   ],
+   [
+    4.505,
+    4.928,
+    4.505,
+    6.021
+   ],
+   [
+    2.736,
+    3.92,
+    3.497,
+    3.92
+   ],
+   [
+    4.297,
+    3.92,
+    4.505,
+    3.92
+   ],
+   [
+    2.736,
+    3.92,
+    2.736,
+    6.021
+   ],
+   [
+    8.45,
+    9.784,
+    10.88,
+    9.784
+   ],
+   [
+    8.45,
+    9.784,
+    8.45,
+    10.815
+   ],
+   [
+    10.445,
+    9.784,
+    10.445,
+    10.815
+   ],
+   [
+    6.511,
+    10.815,
+    6.885,
+    10.815
+   ],
+   [
+    7.685,
+    10.815,
+    9.129,
+    10.815
+   ],
+   [
+    9.879,
+    10.815,
+    10.88,
+    10.815
+   ],
+   [
+    7.937,
+    10.815,
+    7.937,
+    10.946
+   ],
+   [
+    7.937,
+    11.746,
+    7.937,
+    12.252
+   ],
+   [
+    6.428,
+    12.252,
+    6.853,
+    12.252
+   ],
+   [
+    7.653,
+    12.252,
+    10.966,
+    12.252
+   ],
+   [
+    2.354,
+    6.261,
+    2.354,
+    7.961
+   ],
+   [
+    2.544,
+    7.791,
+    6.286,
+    7.791
+   ],
+   [
+    4.71,
+    10.964,
+    4.71,
+    17.312
+   ],
+   [
+    4.71,
+    17.312,
+    6.068,
+    17.312
+   ]
+  ]
+ },
+ "waypoints": [
+  {
+   "id": "vstup",
+   "position": [
+    6.925,
+    0,
+    6.811
+   ],
+   "yaw": -134.28,
+   "roomId": "kuchyn",
+   "caption": "Vstup ze schodiště rovnou do kuchyně – bílá linka do L, lednice a parkety v rybí kosti.",
+   "dwellS": 6,
+   "pitch": -5,
+   "photoId": "foto-12"
+  },
+  {
+   "id": "kuchyn",
+   "position": [
+    10.223,
+    0,
+    6.637
+   ],
+   "yaw": 133.41,
+   "roomId": "kuchyn",
+   "caption": "Kuchyně asi 15 m² s troubou, varnou deskou, digestoří a rohovým dřezem; okno s mléčným sklem do schodiště.",
+   "dwellS": 6,
+   "pitch": -4,
+   "photoId": "foto-11"
+  },
+  {
+   "id": "pokoj-sever",
+   "position": [
+    7.194,
+    0,
+    5.257
+   ],
+   "yaw": -36.7,
+   "roomId": "pokoj-sever",
+   "caption": "Pokoj do ulice asi 20 m² se dvěma okny a širokými dřevěnými prkny; dvoukřídlé dveře vedou do kuchyně.",
+   "dwellS": 6,
+   "pitch": -4,
+   "photoId": "foto-16"
+  },
+  {
+   "id": "chodba",
+   "position": [
+    5.5,
+    0,
+    6.94
+   ],
+   "yaw": 88,
+   "roomId": "chodba-spolecna",
+   "caption": "Společná chodba spojuje hlavní byt a garsonku: vpravo otevřený vstup do garsonky, vzadu zavřené dveře bytu č. 2. Vlevo je podle výkresu schodiště, ve 3D tam stojí zeď. Model podle půdorysu, bez fotek.",
+   "dwellS": 5,
+   "pitch": -3
+  },
+  {
+   "id": "garsonka",
+   "position": [
+    3.4,
+    0,
+    2
+   ],
+   "yaw": -50,
+   "roomId": "garsonka",
+   "caption": "Samostatná část s vlastním vstupem ze společné chodby, dnes garsonka: pokoj asi 23 m², předsíň a koupelna. Model podle půdorysu, bez fotek.",
+   "dwellS": 5,
+   "pitch": -4
+  },
+  {
+   "id": "koupelna",
+   "position": [
+    8.2,
+    0,
+    11.3
+   ],
+   "yaw": -107.77,
+   "roomId": "koupelna",
+   "caption": "Koupelna se sprchovým koutem za posuvnými skly a závěsným WC ve výklenku; béžový velkoformátový obklad.",
+   "dwellS": 6,
+   "pitch": -3,
+   "photoId": "foto-13"
+  },
+  {
+   "id": "pokoj-terasa",
+   "position": [
+    10.481,
+    0,
+    12.819
+   ],
+   "yaw": 131.34,
+   "roomId": "pokoj-terasa",
+   "caption": "Pokoj asi 19 m² s parketami v rybí kosti, oknem do zeleně a dvojími balkonovými dveřmi na terasu.",
+   "dwellS": 6,
+   "pitch": -3,
+   "photoId": "foto-01"
+  },
+  {
+   "id": "terasa",
+   "position": [
+    5.607,
+    0,
+    11.319
+   ],
+   "yaw": 144.21,
+   "roomId": "terasa",
+   "caption": "Terasa asi 9 m² s dlažbou a kovovým zábradlím, s výhledem do zeleně.",
+   "dwellS": 6,
+   "pitch": -3,
+   "photoId": "foto-07"
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "hs-byt-v-cislech",
+   "position": [
+    7.4,
+    1.6,
+    7.2
+   ],
+   "title": "Byt v číslech",
+   "text": "Byt 3+1 o užitné ploše 98,9 m² ve vilovém domě v Krči, velmi dobrý stav, osobní vlastnictví. Parkovací stání za branou.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-kuchyn",
+   "position": [
+    9.9,
+    1.4,
+    8.6
+   ],
+   "title": "Kuchyň",
+   "text": "Bílá kuchyňská linka do L s troubou, varnou deskou, digestoří a rohovým dřezem; volně stojící lednice. Podlaha z parket v rybí kosti.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-garsonka",
+   "position": [
+    3,
+    1.6,
+    2.5
+   ],
+   "title": "Samostatná garsonka",
+   "text": "Součástí bytu je samostatná část s vlastním vstupem ze společné chodby, dnes garsonka s vlastním sociálním zázemím. Lze ji pronajímat, nebo propojit zpět s bytem. Model podle půdorysu, bez fotek.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-koupelny",
+   "position": [
+    9,
+    1.5,
+    11.5
+   ],
+   "title": "Dvě koupelny",
+   "text": "Koupelna se sprchovým koutem za posuvnými skleněnými dveřmi a WC ve výklenku; po propojení s garsonkou má byt dvě koupelny.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-terasa",
+   "position": [
+    5.4,
+    1.4,
+    14.3
+   ],
+   "title": "Terasa do zeleně",
+   "text": "Terasa s výhledem do zeleně, přístupná dvojími balkonovými dveřmi z pokoje.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-podlahy",
+   "position": [
+    8.7,
+    1.4,
+    4
+   ],
+   "title": "Dřevěné podlahy",
+   "text": "V pokoji do ulice široká dřevěná prkna, v kuchyni a v pokoji s terasou parkety v rybí kosti.",
+   "kind": "info"
+  },
+  {
+   "id": "hs-chodba",
+   "position": [
+    4.42,
+    1.6,
+    7.38
+   ],
+   "title": "Společná chodba",
+   "text": "Společná chodba propojuje hlavní byt a garsonku – model podle půdorysu, bez fotek. Na této straně je podle výkresu zábradlí a schodiště; ve 3D tu stojí zeď, schody nejsou vymodelované.",
+   "kind": "info"
+  }
+ ],
+ "apartment": {
+  "wallHeight": 3.1,
+  "railingHeight": 1.05,
+  "rooms": [
+   {
+    "id": "garsonka",
+    "name": "Garsonka – pokoj",
+    "areaM2": 23.1,
+    "polygon": [
+     [
+      0.286,
+      0.672
+     ],
+     [
+      6.48,
+      0.672
+     ],
+     [
+      6.48,
+      3.256
+     ],
+     [
+      4.45,
+      3.256
+     ],
+     [
+      4.45,
+      3.865
+     ],
+     [
+      2.686,
+      3.865
+     ],
+     [
+      2.686,
+      5.781
+     ],
+     [
+      0.286,
+      5.781
+     ]
+    ],
+    "floor": "pine",
+    "wall": "neutral",
+    "floorAngle": 90,
+    "lightId": "sw-garsonka",
+    "cornice": false
+   },
+   {
+    "id": "garsonka-predsin",
+    "name": "Garsonka – předsíň",
+    "areaM2": 3,
+    "polygon": [
+     [
+      2.786,
+      3.975
+     ],
+     [
+      4.45,
+      3.975
+     ],
+     [
+      4.45,
+      5.781
+     ],
+     [
+      2.786,
+      5.781
+     ]
+    ],
+    "floor": "pine",
+    "wall": "neutral",
+    "dayLight": true,
+    "floorAngle": 90,
+    "lightId": "sw-garsonka-predsin",
+    "cornice": false
+   },
+   {
+    "id": "garsonka-koupelna",
+    "name": "Garsonka – koupelna",
+    "areaM2": 4.3,
+    "polygon": [
+     [
+      4.56,
+      3.381
+     ],
+     [
+      6.36,
+      3.381
+     ],
+     [
+      6.36,
+      5.781
+     ],
+     [
+      4.56,
+      5.781
+     ]
+    ],
+    "floor": "sandstone",
+    "dayLight": true,
+    "band": {
+     "finish": "neutral",
+     "y0": 2.1,
+     "y1": 3.1
+    },
+    "lightId": "sw-garsonka-koupelna",
+    "cornice": false
+   },
+   {
+    "id": "pokoj-sever",
+    "name": "Pokoj – severní",
+    "areaM2": 20,
+    "polygon": [
+     [
+      6.73,
+      0.672
+     ],
+     [
+      10.645,
+      0.672
+     ],
+     [
+      10.645,
+      5.781
+     ],
+     [
+      6.73,
+      5.781
+     ]
+    ],
+    "floor": "pine",
+    "wall": "neutral",
+    "lights": [
+     {
+      "x": 8.8,
+      "z": 2.2,
+      "y": 2.25,
+      "intensity": 19.7,
+      "distance": 8,
+      "fixture": "none"
+     }
+    ],
+    "floorAngle": 90,
+    "lightId": "sw-pokoj-sever",
+    "cornice": false
+   },
+   {
+    "id": "kuchyn",
+    "name": "Kuchyň",
+    "areaM2": 15.2,
+    "polygon": [
+     [
+      6.736,
+      6.261
+     ],
+     [
+      10.645,
+      6.261
+     ],
+     [
+      10.645,
+      9.729
+     ],
+     [
+      8.4,
+      9.729
+     ],
+     [
+      8.4,
+      10.72
+     ],
+     [
+      6.736,
+      10.72
+     ]
+    ],
+    "floor": "herringbone",
+    "wall": "neutral",
+    "lightId": "sw-kuchyn",
+    "dayLight": true,
+    "lights": [
+     {
+      "x": 8.95,
+      "z": 7.85,
+      "y": 2.95,
+      "intensity": 8,
+      "distance": 7,
+      "fixture": "none"
+     },
+     {
+      "x": 9.9,
+      "z": 7.46,
+      "y": 2.6,
+      "intensity": 5,
+      "distance": 5,
+      "fixture": "none"
+     }
+    ],
+    "floorAngle": 45,
+    "cornice": false
+   },
+   {
+    "id": "wc",
+    "name": "WC",
+    "areaM2": 1.5,
+    "polygon": [
+     [
+      8.5,
+      9.839
+     ],
+     [
+      10.245,
+      9.839
+     ],
+     [
+      10.245,
+      10.72
+     ],
+     [
+      8.5,
+      10.72
+     ]
+    ],
+    "floor": "sandstone",
+    "dayLight": true,
+    "band": {
+     "finish": "neutral",
+     "y0": 2.1,
+     "y1": 3.1
+    },
+    "lightId": "sw-wc",
+    "cornice": false
+   },
+   {
+    "id": "chodba",
+    "name": "Chodba",
+    "areaM2": 1.3,
+    "polygon": [
+     [
+      6.728,
+      10.91
+     ],
+     [
+      7.827,
+      10.91
+     ],
+     [
+      7.827,
+      12.082
+     ],
+     [
+      6.728,
+      12.082
+     ]
+    ],
+    "floor": "herringbone",
+    "wall": "neutral",
+    "dayLight": true,
+    "floorAngle": 45,
+    "lightId": "sw-chodba",
+    "cornice": false
+   },
+   {
+    "id": "koupelna",
+    "name": "Koupelna",
+    "areaM2": 3.2,
+    "polygon": [
+     [
+      8.047,
+      10.91
+     ],
+     [
+      10.816,
+      10.91
+     ],
+     [
+      10.816,
+      12.082
+     ],
+     [
+      8.047,
+      12.082
+     ]
+    ],
+    "floor": "sandstone",
+    "dayLight": true,
+    "lights": [
+     {
+      "x": 9.731,
+      "z": 11.496
+     }
+    ],
+    "band": {
+     "finish": "neutral",
+     "y0": 2.1,
+     "y1": 3.1
+    },
+    "lightId": "sw-koupelna",
+    "cornice": false
+   },
+   {
+    "id": "pokoj-terasa",
+    "name": "Pokoj s terasou",
+    "areaM2": 19,
+    "polygon": [
+     [
+      6.513,
+      12.422
+     ],
+     [
+      10.693,
+      12.422
+     ],
+     [
+      10.693,
+      16.977
+     ],
+     [
+      6.513,
+      16.977
+     ]
+    ],
+    "floor": "herringbone",
+    "wall": "neutral",
+    "lights": [
+     {
+      "x": 8.59,
+      "z": 15.5,
+      "y": 2.4,
+      "intensity": 19.7,
+      "distance": 8,
+      "fixture": "none"
+     }
+    ],
+    "floorAngle": 45,
+    "lightId": "sw-pokoj-terasa",
+    "cornice": false
+   },
+   {
+    "id": "terasa",
+    "name": "Terasa",
+    "areaM2": 9.3,
+    "polygon": [
+     [
+      4.708,
+      10.964
+     ],
+     [
+      6.128,
+      10.964
+     ],
+     [
+      6.128,
+      12.422
+     ],
+     [
+      6.068,
+      12.422
+     ],
+     [
+      6.068,
+      12.77
+     ],
+     [
+      6.33,
+      12.77
+     ],
+     [
+      6.33,
+      13.783
+     ],
+     [
+      6.068,
+      13.783
+     ],
+     [
+      6.068,
+      14.88
+     ],
+     [
+      6.33,
+      14.88
+     ],
+     [
+      6.33,
+      15.914
+     ],
+     [
+      6.068,
+      15.914
+     ],
+     [
+      6.068,
+      17.336
+     ],
+     [
+      4.708,
+      17.336
+     ]
+    ],
+    "floor": "terrace",
+    "wall": "greige",
+    "outdoor": true,
+    "lightId": "sw-terasa",
+    "lights": [
+     {
+      "x": 6.07,
+      "z": 13.5,
+      "y": 2.9,
+      "fixture": "wall",
+      "distance": 4.5
+     },
+     {
+      "x": 6.07,
+      "z": 15.35,
+      "y": 2.9,
+      "fixture": "wall",
+      "distance": 4.5
+     }
+    ]
+   },
+   {
+    "id": "chodba-spolecna",
+    "name": "Společná chodba",
+    "areaM2": 5.1,
+    "polygon": [
+     [
+      2.544,
+      6.261
+     ],
+     [
+      6.286,
+      6.261
+     ],
+     [
+      6.286,
+      7.621
+     ],
+     [
+      2.544,
+      7.621
+     ]
+    ],
+    "floor": "tiles",
+    "wall": "neutral",
+    "common": true,
+    "dayLight": true,
+    "lights": [
+     {
+      "x": 4.415,
+      "z": 6.941
+     }
+    ],
+    "cornice": false
+   }
+  ],
+  "walls": [
+   {
+    "id": "sever",
+    "a": [
+     0.161,
+     0.372
+    ],
+    "b": [
+     10.88,
+     0.372
+    ],
+    "thickness": 0.6,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 1.604,
+      "width": 1.24,
+      "sill": 0.88,
+      "height": 2.07,
+      "kind": "window"
+     },
+     {
+      "offset": 3.179,
+      "width": 1.235,
+      "sill": 0.88,
+      "height": 2.07,
+      "kind": "window"
+     },
+     {
+      "offset": 4.746,
+      "width": 1.22,
+      "sill": 0.88,
+      "height": 2.07,
+      "kind": "window"
+     },
+     {
+      "offset": 7.256,
+      "width": 1.22,
+      "sill": 0.88,
+      "height": 2.07,
+      "kind": "window"
+     },
+     {
+      "offset": 9.183,
+      "width": 1.21,
+      "sill": 0.88,
+      "height": 2.07,
+      "kind": "window"
+     }
+    ]
+   },
+   {
+    "id": "garsonka-zapad",
+    "a": [
+     0.161,
+     0.372
+    ],
+    "b": [
+     0.161,
+     6.021
+    ],
+    "thickness": 0.25,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "garsonka-jih",
+    "a": [
+     0.161,
+     6.021
+    ],
+    "b": [
+     6.605,
+     6.021
+    ],
+    "thickness": 0.48,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 3.115,
+      "width": 0.9,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-vstup-garsonka",
+      "hinge": "a",
+      "swing": -1,
+      "flush": true,
+      "open": true
+     }
+    ],
+    "ends": [
+     0.125,
+     0
+    ]
+   },
+   {
+    "id": "kuchyn-zapad",
+    "a": [
+     6.511,
+     6.021
+    ],
+    "b": [
+     6.511,
+     10.815
+    ],
+    "thickness": 0.45,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 0.988,
+      "width": 0.9,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-vstup-byt",
+      "hinge": "a",
+      "swing": -1,
+      "flush": true,
+      "open": true
+     },
+     {
+      "offset": 3.272,
+      "width": 1.285,
+      "sill": 0.98,
+      "height": 1.985,
+      "kind": "window",
+      "frosted": true
+     }
+    ],
+    "ends": [
+     -0.24,
+     0.148
+    ]
+   },
+   {
+    "id": "vychod",
+    "a": [
+     10.88,
+     0.372
+    ],
+    "b": [
+     10.88,
+     10.815
+    ],
+    "thickness": 0.47,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "vychod-koupelna",
+    "a": [
+     10.966,
+     10.815
+    ],
+    "b": [
+     10.966,
+     12.252
+    ],
+    "thickness": 0.3,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "vychod-pokoj",
+    "a": [
+     10.903,
+     12.252
+    ],
+    "b": [
+     10.903,
+     17.187
+    ],
+    "thickness": 0.42,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "chodba-zapad",
+    "a": [
+     6.428,
+     10.815
+    ],
+    "b": [
+     6.428,
+     12.252
+    ],
+    "thickness": 0.6,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 0.484,
+      "width": 0.6,
+      "sill": 0.88,
+      "height": 2.07,
+      "kind": "window"
+     }
+    ],
+    "ends": [
+     -0.148,
+     0.17
+    ]
+   },
+   {
+    "id": "pokoj-terasa-zapad-1",
+    "a": [
+     6.291,
+     12.252
+    ],
+    "b": [
+     6.291,
+     12.77
+    ],
+    "thickness": 0.445,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "pokoj-terasa-dvere-1",
+    "a": [
+     6.422,
+     12.77
+    ],
+    "b": [
+     6.422,
+     13.783
+    ],
+    "thickness": 0.183,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 0.2792,
+      "width": 0.4545,
+      "sill": 0,
+      "height": 2.95,
+      "kind": "door",
+      "id": "dv-terasa-1a",
+      "hinge": "a",
+      "swing": -1,
+      "glazed": true
+     },
+     {
+      "offset": 0.7338,
+      "width": 0.4545,
+      "sill": 0,
+      "height": 2.95,
+      "kind": "door",
+      "id": "dv-terasa-1b",
+      "hinge": "b",
+      "swing": -1,
+      "glazed": true
+     }
+    ]
+   },
+   {
+    "id": "pokoj-terasa-zapad-2",
+    "a": [
+     6.291,
+     13.783
+    ],
+    "b": [
+     6.291,
+     14.88
+    ],
+    "thickness": 0.445,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "pokoj-terasa-dvere-2",
+    "a": [
+     6.422,
+     14.88
+    ],
+    "b": [
+     6.422,
+     15.914
+    ],
+    "thickness": 0.183,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 0.2845,
+      "width": 0.465,
+      "sill": 0,
+      "height": 2.95,
+      "kind": "door",
+      "id": "dv-terasa-2a",
+      "hinge": "a",
+      "swing": -1,
+      "glazed": true,
+      "open": true
+     },
+     {
+      "offset": 0.7495,
+      "width": 0.465,
+      "sill": 0,
+      "height": 2.95,
+      "kind": "door",
+      "id": "dv-terasa-2b",
+      "hinge": "b",
+      "swing": -1,
+      "glazed": true,
+      "open": true
+     }
+    ]
+   },
+   {
+    "id": "pokoj-terasa-zapad-3",
+    "a": [
+     6.291,
+     15.914
+    ],
+    "b": [
+     6.291,
+     17.187
+    ],
+    "thickness": 0.445,
+    "exterior": true,
+    "openings": []
+   },
+   {
+    "id": "pokoj-terasa-jih",
+    "a": [
+     6.291,
+     17.187
+    ],
+    "b": [
+     10.903,
+     17.187
+    ],
+    "thickness": 0.42,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 2.354,
+      "width": 1.1,
+      "sill": 0.95,
+      "height": 1.95,
+      "kind": "window"
+     }
+    ]
+   },
+   {
+    "id": "terasa-sever",
+    "a": [
+     4.549,
+     10.739
+    ],
+    "b": [
+     6.428,
+     10.739
+    ],
+    "thickness": 0.45,
+    "exterior": true,
+    "openings": [],
+    "ends": [
+     0,
+     -0.142
+    ]
+   },
+   {
+    "id": "garsonka-vychod",
+    "a": [
+     6.605,
+     0.372
+    ],
+    "b": [
+     6.605,
+     6.021
+    ],
+    "thickness": 0.25,
+    "exterior": false,
+    "openings": []
+   },
+   {
+    "id": "kuchyn-sever",
+    "a": [
+     6.605,
+     6.021
+    ],
+    "b": [
+     10.88,
+     6.021
+    ],
+    "thickness": 0.48,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 1.712,
+      "width": 0.7525,
+      "sill": 0,
+      "height": 2.4,
+      "kind": "door",
+      "id": "dv-kuchyn-l",
+      "hinge": "a",
+      "swing": -1,
+      "open": true,
+      "merged": "b",
+      "frosted": true
+     },
+     {
+      "offset": 2.4645,
+      "width": 0.7525,
+      "sill": 0,
+      "height": 2.4,
+      "kind": "door",
+      "id": "dv-kuchyn-p",
+      "hinge": "b",
+      "swing": -1,
+      "open": true,
+      "merged": "a",
+      "frosted": true
+     }
+    ],
+    "ends": [
+     0,
+     -0.235
+    ]
+   },
+   {
+    "id": "predstena-koupelna-g",
+    "a": [
+     6.42,
+     3.319
+    ],
+    "b": [
+     6.42,
+     6.021
+    ],
+    "thickness": 0.12,
+    "exterior": false,
+    "openings": []
+   },
+   {
+    "id": "koupelna-g-sever",
+    "a": [
+     4.505,
+     3.319
+    ],
+    "b": [
+     6.605,
+     3.319
+    ],
+    "thickness": 0.125,
+    "exterior": false,
+    "openings": []
+   },
+   {
+    "id": "predsin-g-vychod",
+    "a": [
+     4.505,
+     3.319
+    ],
+    "b": [
+     4.505,
+     6.021
+    ],
+    "thickness": 0.11,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 1.209,
+      "width": 0.8,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-koupelna-g",
+      "hinge": "a",
+      "swing": -1,
+      "frosted": true
+     }
+    ]
+   },
+   {
+    "id": "predsin-g-sever",
+    "a": [
+     2.736,
+     3.92
+    ],
+    "b": [
+     4.505,
+     3.92
+    ],
+    "thickness": 0.11,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 1.161,
+      "width": 0.8,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-predsin-g",
+      "hinge": "b",
+      "swing": -1,
+      "open": true,
+      "frosted": true
+     }
+    ]
+   },
+   {
+    "id": "predsin-g-zapad",
+    "a": [
+     2.736,
+     3.92
+    ],
+    "b": [
+     2.736,
+     6.021
+    ],
+    "thickness": 0.1,
+    "exterior": false,
+    "openings": []
+   },
+   {
+    "id": "wc-sever",
+    "a": [
+     8.45,
+     9.784
+    ],
+    "b": [
+     10.88,
+     9.784
+    ],
+    "thickness": 0.11,
+    "exterior": false,
+    "openings": []
+   },
+   {
+    "id": "wc-zapad",
+    "a": [
+     8.45,
+     9.784
+    ],
+    "b": [
+     8.45,
+     10.815
+    ],
+    "thickness": 0.1,
+    "exterior": false,
+    "openings": []
+   },
+   {
+    "id": "predstena-wc",
+    "a": [
+     10.445,
+     9.784
+    ],
+    "b": [
+     10.445,
+     10.815
+    ],
+    "thickness": 0.4,
+    "exterior": false,
+    "openings": []
+   },
+   {
+    "id": "chodba-sever",
+    "a": [
+     6.511,
+     10.815
+    ],
+    "b": [
+     10.88,
+     10.815
+    ],
+    "thickness": 0.19,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 0.774,
+      "width": 0.8,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-chodba",
+      "hinge": "a",
+      "swing": -1,
+      "open": true,
+      "glazed": false,
+      "frosted": true
+     },
+     {
+      "offset": 2.993,
+      "width": 0.75,
+      "sill": 0,
+      "height": 2.15,
+      "kind": "passage"
+     }
+    ]
+   },
+   {
+    "id": "chodba-vychod",
+    "a": [
+     7.937,
+     10.815
+    ],
+    "b": [
+     7.937,
+     12.252
+    ],
+    "thickness": 0.22,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 0.531,
+      "width": 0.8,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-koupelna",
+      "hinge": "a",
+      "swing": -1,
+      "open": true,
+      "frosted": true
+     }
+    ]
+   },
+   {
+    "id": "pokoj-terasa-sever",
+    "a": [
+     6.428,
+     12.252
+    ],
+    "b": [
+     10.966,
+     12.252
+    ],
+    "thickness": 0.34,
+    "exterior": false,
+    "openings": [
+     {
+      "offset": 0.825,
+      "width": 0.8,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "id": "dv-pokoj-terasa",
+      "hinge": "a",
+      "swing": 1,
+      "open": true,
+      "frosted": true
+     }
+    ]
+   },
+   {
+    "id": "chodba-spolecna-zapad",
+    "a": [
+     2.354,
+     6.261
+    ],
+    "b": [
+     2.354,
+     7.961
+    ],
+    "thickness": 0.38,
+    "exterior": true,
+    "openings": [
+     {
+      "offset": 0.799,
+      "width": 0.8,
+      "sill": 0,
+      "height": 2.1,
+      "kind": "door",
+      "flush": true,
+      "label": "Dveře bytu č. 2",
+      "note": "Dveře sousedního bytu č. 2 – do něj se z prohlídky nevstupuje"
+     }
+    ],
+    "ends": [
+     0,
+     0
+    ]
+   },
+   {
+    "id": "chodba-spolecna-jih",
+    "a": [
+     2.544,
+     7.791
+    ],
+    "b": [
+     6.286,
+     7.791
+    ],
+    "thickness": 0.34,
+    "exterior": true,
+    "openings": [],
+    "ends": [
+     0,
+     0
+    ]
+   }
+  ],
+  "switches": [
+   {
+    "id": "sw-kuchyn",
+    "roomId": "kuchyn",
+    "position": [
+     7.66,
+     6.261
+    ],
+    "normal": [
+     0,
+     1
+    ]
+   },
+   {
+    "id": "sw-kuchyn-2",
+    "roomId": "kuchyn",
+    "position": [
+     9.633,
+     6.261
+    ],
+    "normal": [
+     0,
+     1
+    ]
+   },
+   {
+    "id": "sw-kuchyn-vstup",
+    "roomId": "kuchyn",
+    "position": [
+     6.736,
+     7.801
+    ],
+    "normal": [
+     1,
+     0
+    ]
+   },
+   {
+    "id": "sw-kuchyn-chodba",
+    "roomId": "kuchyn",
+    "position": [
+     7.899,
+     10.72
+    ],
+    "normal": [
+     0,
+     -1
+    ]
+   },
+   {
+    "id": "sw-terasa",
+    "roomId": "terasa",
+    "position": [
+     6.513,
+     14.282
+    ],
+    "normal": [
+     1,
+     0
+    ]
+   },
+   {
+    "id": "sw-garsonka",
+    "roomId": "garsonka",
+    "position": [
+     4.4,
+     3.865
+    ],
+    "normal": [
+     0,
+     -1
+    ]
+   },
+   {
+    "id": "sw-garsonka-predsin",
+    "roomId": "garsonka-predsin",
+    "position": [
+     4.4,
+     3.975
+    ],
+    "normal": [
+     0,
+     1
+    ]
+   },
+   {
+    "id": "sw-garsonka-koupelna",
+    "roomId": "garsonka-koupelna",
+    "position": [
+     4.56,
+     5.1
+    ],
+    "normal": [
+     1,
+     0
+    ]
+   },
+   {
+    "id": "sw-pokoj-sever",
+    "roomId": "pokoj-sever",
+    "position": [
+     6.73,
+     5.45
+    ],
+    "normal": [
+     1,
+     0
+    ]
+   },
+   {
+    "id": "sw-wc",
+    "roomId": "wc",
+    "position": [
+     8.5,
+     10.3
+    ],
+    "normal": [
+     1,
+     0
+    ]
+   },
+   {
+    "id": "sw-chodba",
+    "roomId": "chodba",
+    "position": [
+     7.827,
+     11.9
+    ],
+    "normal": [
+     -1,
+     0
+    ]
+   },
+   {
+    "id": "sw-koupelna",
+    "roomId": "koupelna",
+    "position": [
+     8.047,
+     11.9
+    ],
+    "normal": [
+     1,
+     0
+    ]
+   },
+   {
+    "id": "sw-pokoj-terasa",
+    "roomId": "pokoj-terasa",
+    "position": [
+     7.8,
+     12.422
+    ],
+    "normal": [
+     0,
+     1
+    ]
+   }
+  ],
+  "railings": [
+   {
+    "a": [
+     4.71,
+     10.964
+    ],
+    "b": [
+     4.71,
+     17.312
+    ],
+    "style": "bars",
+    "color": 4080453,
+    "edgeColor": 8736838
+   },
+   {
+    "a": [
+     4.71,
+     17.312
+    ],
+    "b": [
+     6.068,
+     17.312
+    ],
+    "style": "bars",
+    "color": 4080453,
+    "edgeColor": 8736838
+   }
+  ],
+  "surroundings": "villas",
+  "streetSide": "N",
+  "furniture": [
+   {
+    "id": "kuchyn-linka-vychod",
+    "kind": "kitchenRun",
+    "roomId": "kuchyn",
+    "x": 10.345,
+    "z": 8.564,
+    "facing": "W",
+    "w": 2.33,
+    "d": 0.6,
+    "h": 0.9,
+    "color": 16053490,
+    "topColor": 11247511,
+    "parts": [
+     "hob",
+     "oven",
+     "hood",
+     "uppers",
+     "backsplash",
+     "sink"
+    ],
+    "sinkAt": 0.716,
+    "hobAt": -0.434,
+    "decor": false,
+    "backColor": 8288111,
+    "handleColor": 12896204,
+    "plinthColor": 16053490
+   },
+   {
+    "id": "kuchyn-linka-jih",
+    "kind": "kitchenRun",
+    "roomId": "kuchyn",
+    "x": 9.232,
+    "z": 9.429,
+    "facing": "N",
+    "w": 1.62,
+    "d": 0.6,
+    "h": 0.9,
+    "color": 16053490,
+    "topColor": 11247511,
+    "parts": [
+     "uppers",
+     "backsplash"
+    ],
+    "decor": false,
+    "backColor": 8288111,
+    "handleColor": 12896204,
+    "plinthColor": 16053490
+   },
+   {
+    "id": "kuchyn-lednice",
+    "kind": "fridge",
+    "roomId": "kuchyn",
+    "x": 8.08,
+    "z": 10.385,
+    "facing": "N",
+    "w": 0.58,
+    "d": 0.63,
+    "h": 1.5
+   },
+   {
+    "id": "kuchyn-radiator",
+    "kind": "radiator",
+    "roomId": "kuchyn",
+    "x": 6.786,
+    "z": 9.29,
+    "facing": "E",
+    "w": 1,
+    "d": 0.1,
+    "h": 0.55,
+    "color": 15921904
+   },
+   {
+    "id": "kuchyn-zarivka",
+    "kind": "pendant",
+    "roomId": "kuchyn",
+    "x": 8.95,
+    "z": 7.85,
+    "facing": "E",
+    "w": 1.2,
+    "d": 0.12,
+    "y": 3.02,
+    "h": 0.08,
+    "variant": "tube"
+   },
+   {
+    "id": "kuchyn-zarovka",
+    "kind": "pendant",
+    "roomId": "kuchyn",
+    "x": 9.9,
+    "z": 7.46,
+    "facing": "S",
+    "w": 0.07,
+    "d": 0.07,
+    "y": 2.62,
+    "variant": "bulb"
+   },
+   {
+    "id": "pokoj-sever-radiator-zapad",
+    "kind": "radiator",
+    "roomId": "pokoj-sever",
+    "x": 7.417,
+    "z": 0.732,
+    "facing": "S",
+    "w": 0.65,
+    "d": 0.1,
+    "h": 0.55,
+    "color": 15921904
+   },
+   {
+    "id": "pokoj-sever-radiator-vychod",
+    "kind": "radiator",
+    "roomId": "pokoj-sever",
+    "x": 9.344,
+    "z": 0.732,
+    "facing": "S",
+    "w": 0.65,
+    "d": 0.1,
+    "h": 0.55,
+    "color": 15921904
+   },
+   {
+    "id": "pokoj-sever-svitidlo",
+    "kind": "pendant",
+    "roomId": "pokoj-sever",
+    "x": 8.8,
+    "z": 2.2,
+    "facing": "S",
+    "w": 0.3,
+    "d": 0.3,
+    "y": 2.1,
+    "variant": "sphere"
+   },
+   {
+    "id": "koupelna-sprcha",
+    "kind": "bathtub",
+    "roomId": "koupelna",
+    "x": 10.391,
+    "z": 11.496,
+    "facing": "W",
+    "w": 1.17,
+    "d": 0.85,
+    "h": 2,
+    "variant": "walkin"
+   },
+   {
+    "id": "koupelna-umyvadlo",
+    "kind": "basin",
+    "roomId": "koupelna",
+    "x": 9.53,
+    "z": 11.902,
+    "facing": "N",
+    "w": 0.45,
+    "d": 0.36,
+    "y": 0.8
+   },
+   {
+    "id": "koupelna-zrcadlo",
+    "kind": "mirror",
+    "roomId": "koupelna",
+    "x": 9.53,
+    "z": 12.072,
+    "facing": "N",
+    "w": 0.4,
+    "d": 0.02,
+    "h": 0.7,
+    "y": 1.15
+   },
+   {
+    "id": "koupelna-zebrik",
+    "kind": "towelRadiator",
+    "roomId": "koupelna",
+    "x": 8.42,
+    "z": 12.032,
+    "facing": "N",
+    "w": 0.5,
+    "d": 0.06,
+    "h": 1.2,
+    "y": 0.25,
+    "color": 15921904,
+    "variant": "bare"
+   },
+   {
+    "id": "wc-misa",
+    "kind": "toilet",
+    "roomId": "wc",
+    "x": 9.975,
+    "z": 10.28,
+    "facing": "W",
+    "w": 0.36,
+    "d": 0.55,
+    "variant": "wallhung"
+   },
+   {
+    "id": "pokoj-terasa-radiator-okno",
+    "kind": "radiator",
+    "roomId": "pokoj-terasa",
+    "x": 8.645,
+    "z": 16.917,
+    "facing": "N",
+    "w": 1.05,
+    "d": 0.1,
+    "h": 0.6,
+    "color": 15921904
+   },
+   {
+    "id": "pokoj-terasa-radiator-pilir",
+    "kind": "radiator",
+    "roomId": "pokoj-terasa",
+    "x": 6.573,
+    "z": 14.28,
+    "facing": "E",
+    "w": 0.8,
+    "d": 0.1,
+    "h": 0.6,
+    "color": 15921904
+   },
+   {
+    "id": "pokoj-terasa-svitidlo",
+    "kind": "pendant",
+    "roomId": "pokoj-terasa",
+    "x": 8.59,
+    "z": 15.5,
+    "facing": "S",
+    "w": 0.3,
+    "d": 0.3,
+    "y": 2.25,
+    "variant": "smoke"
+   },
+   {
+    "id": "pokoj-terasa-garnyz-sever",
+    "kind": "curtain",
+    "roomId": "pokoj-terasa",
+    "x": 6.583,
+    "z": 13.22,
+    "facing": "E",
+    "w": 1.6,
+    "d": 0.07,
+    "y": 3,
+    "color": 4802371,
+    "variant": "rod",
+    "solid": false
+   },
+   {
+    "id": "pokoj-terasa-garnyz-jih",
+    "kind": "curtain",
+    "roomId": "pokoj-terasa",
+    "x": 6.583,
+    "z": 15.34,
+    "facing": "E",
+    "w": 1.6,
+    "d": 0.07,
+    "y": 3,
+    "color": 4802371,
+    "variant": "rod",
+    "solid": false
+   },
+   {
+    "id": "garsonka-sprcha",
+    "kind": "bathtub",
+    "roomId": "garsonka-koupelna",
+    "x": 5.95,
+    "z": 3.81,
+    "facing": "S",
+    "w": 0.8,
+    "d": 0.8,
+    "h": 0.15,
+    "variant": "screen",
+    "decor": false
+   },
+   {
+    "id": "garsonka-umyvadlo",
+    "kind": "basin",
+    "roomId": "garsonka-koupelna",
+    "x": 6.15,
+    "z": 4.6,
+    "facing": "W",
+    "w": 0.45,
+    "d": 0.36,
+    "y": 0.8
+   },
+   {
+    "id": "garsonka-wc",
+    "kind": "toilet",
+    "roomId": "garsonka-koupelna",
+    "x": 6.085,
+    "z": 5.33,
+    "facing": "W",
+    "w": 0.36,
+    "d": 0.55,
+    "variant": "wallhung"
+   }
+  ]
+ },
+ "photos": [
+  {
+   "id": "foto-12",
+   "url": "fotky/foto-12.jpg",
+   "thumb": "fotky/mini-12.jpg",
+   "roomId": "kuchyn",
+   "position": [
+    6.925,
+    1.407,
+    6.811
+   ],
+   "yaw": -134.28,
+   "hfov": 96.43,
+   "offsetY": 0.0016,
+   "aspect": 1.5035,
+   "title": "Kuchyň – pohled od vstupu",
+   "caption": "Kuchyň asi 15 m²: bílá linka do L s troubou, varnou deskou a digestoří, vedle volně stojící lednice; parkety v rybí kosti.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-chodba",
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-12.jpg",
+     "thumb": "fotky/mini-viz-12.jpg"
+    }
+   ]
+  },
+  {
+   "id": "foto-11",
+   "url": "fotky/foto-11.jpg",
+   "thumb": "fotky/mini-11.jpg",
+   "roomId": "kuchyn",
+   "position": [
+    10.223,
+    1.526,
+    6.637
+   ],
+   "yaw": 133.41,
+   "hfov": 95.62,
+   "offsetY": -0.004,
+   "aspect": 1.4942,
+   "title": "Kuchyň a vstup",
+   "caption": "Rohový dřez a horní skříňky s vitrínou; vstupní dveře ze schodiště a okno s mléčným sklem.",
+   "doors": {
+    "open": [
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-chodba",
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b",
+     "dv-vstup-byt"
+    ]
+   }
+  },
+  {
+   "id": "foto-10",
+   "url": "fotky/foto-10.jpg",
+   "thumb": "fotky/mini-10.jpg",
+   "roomId": "kuchyn",
+   "position": [
+    7.031,
+    1.588,
+    9.991
+   ],
+   "yaw": -19.13,
+   "hfov": 99.53,
+   "offsetY": -0.0056,
+   "aspect": 1.5035,
+   "title": "Kuchyň – průchod do pokoje",
+   "caption": "Dvoukřídlé dveře vedou z kuchyně do pokoje do ulice.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b",
+     "dv-vstup-byt"
+    ]
+   }
+  },
+  {
+   "id": "foto-02",
+   "url": "fotky/foto-02.jpg",
+   "thumb": "fotky/mini-02.jpg",
+   "roomId": "pokoj-sever",
+   "position": [
+    8.731,
+    1.575,
+    6.035
+   ],
+   "yaw": 17.35,
+   "hfov": 98.65,
+   "offsetY": -0.0016,
+   "aspect": 1.5012,
+   "title": "Pokoj do ulice",
+   "caption": "Pokoj asi 20 m² se dvěma okny do ulice a širokými dřevěnými prkny na podlaze.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   }
+  },
+  {
+   "id": "foto-16",
+   "url": "fotky/foto-16.jpg",
+   "thumb": "fotky/mini-16.jpg",
+   "roomId": "pokoj-sever",
+   "position": [
+    7.194,
+    1.552,
+    5.257
+   ],
+   "yaw": -36.7,
+   "hfov": 97.85,
+   "offsetY": -0.0011,
+   "aspect": 1.4965,
+   "title": "Pokoj do ulice – okna",
+   "caption": "Dřevěná okna s nadsvětlíky, pod nimi radiátory.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-16.jpg",
+     "thumb": "fotky/mini-viz-16.jpg"
+    }
+   ]
+  },
+  {
+   "id": "foto-17",
+   "url": "fotky/foto-17.jpg",
+   "thumb": "fotky/mini-17.jpg",
+   "roomId": "pokoj-sever",
+   "position": [
+    7.337,
+    1.47,
+    1.488
+   ],
+   "yaw": 1.48,
+   "hfov": 99.64,
+   "offsetY": 0.0042,
+   "aspect": 1.5012,
+   "title": "Výhled do ulice",
+   "caption": "Z oken pokoje je výhled do vilové ulice.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-15",
+   "url": "fotky/foto-15.jpg",
+   "thumb": "fotky/mini-15.jpg",
+   "roomId": "pokoj-sever",
+   "position": [
+    7.152,
+    1.499,
+    1
+   ],
+   "yaw": -136.02,
+   "hfov": 98.16,
+   "offsetY": 0.0011,
+   "aspect": 1.5059,
+   "title": "Dveře do kuchyně",
+   "caption": "Dvoukřídlé dveře s mléčným sklem spojují pokoj s kuchyní.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   }
+  },
+  {
+   "id": "foto-13",
+   "url": "fotky/foto-13.jpg",
+   "thumb": "fotky/mini-13.jpg",
+   "roomId": "koupelna",
+   "position": [
+    7.875,
+    1.222,
+    11.265
+   ],
+   "yaw": -107.77,
+   "hfov": 98.01,
+   "offsetY": -0.0033,
+   "aspect": 1.5071,
+   "title": "Koupelna",
+   "caption": "Koupelna asi 3 m²: sprcha za posuvnými skly, závěsné umyvadlo a žebříkový radiátor; béžový obklad.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-13.jpg",
+     "thumb": "fotky/mini-viz-13.jpg"
+    }
+   ]
+  },
+  {
+   "id": "foto-14",
+   "url": "fotky/foto-14.jpg",
+   "thumb": "fotky/mini-14.jpg",
+   "roomId": "koupelna",
+   "position": [
+    8.536,
+    0.816,
+    11.562
+   ],
+   "yaw": -72.53,
+   "hfov": 92.18,
+   "offsetY": -0.0056,
+   "aspect": 1.5023,
+   "title": "Koupelna – WC a sprcha",
+   "caption": "Závěsné WC ve výklenku (asi 1,5 m²) vedle sprchy se žlabem v podlaze.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   }
+  },
+  {
+   "id": "foto-05",
+   "url": "fotky/foto-05.jpg",
+   "thumb": "fotky/mini-05.jpg",
+   "roomId": "pokoj-terasa",
+   "position": [
+    7.161,
+    1.537,
+    12.318
+   ],
+   "yaw": -151.72,
+   "hfov": 98.8,
+   "offsetY": -0.0097,
+   "aspect": 1.5023,
+   "title": "Pokoj s terasou",
+   "caption": "Pokoj asi 19 m² s parketami v rybí kosti, oknem do zeleně a dvojími balkonovými dveřmi.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b",
+     "dv-terasa-2a",
+     "dv-terasa-2b"
+    ]
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-05.jpg",
+     "thumb": "fotky/mini-viz-05.jpg"
+    }
+   ]
+  },
+  {
+   "id": "foto-01",
+   "url": "fotky/foto-01.jpg",
+   "thumb": "fotky/mini-01.jpg",
+   "roomId": "pokoj-terasa",
+   "position": [
+    10.481,
+    1.73,
+    12.819
+   ],
+   "yaw": 131.34,
+   "hfov": 90.73,
+   "offsetY": -0.03,
+   "aspect": 1.519,
+   "title": "Pokoj s terasou – balkonové dveře",
+   "caption": "Prosklené balkonové dveře s nadsvětlíky vedou přímo na terasu.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-predsin-g",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-pokoj-terasa",
+     "dv-terasa-1a",
+     "dv-terasa-1b",
+     "dv-terasa-2a",
+     "dv-terasa-2b"
+    ]
+   }
+  },
+  {
+   "id": "foto-06",
+   "url": "fotky/foto-06.jpg",
+   "thumb": "fotky/mini-06.jpg",
+   "roomId": "pokoj-terasa",
+   "position": [
+    7.474,
+    1.633,
+    15.47
+   ],
+   "yaw": 95.34,
+   "hfov": 99.26,
+   "offsetY": 0.0049,
+   "aspect": 1.5071,
+   "title": "Výstup na terasu",
+   "caption": "Z pokoje se vychází na terasu s výhledem do zeleně.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b",
+     "dv-terasa-2a"
+    ]
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-20",
+   "url": "fotky/foto-20.jpg",
+   "thumb": "fotky/mini-20.jpg",
+   "roomId": "terasa",
+   "position": [
+    4.837,
+    1.57,
+    17.075
+   ],
+   "yaw": -5.86,
+   "hfov": 99.99,
+   "offsetY": -0.0044,
+   "aspect": 1.5,
+   "title": "Terasa – pohled k domu",
+   "caption": "Terasa asi 9 m²; vedou na ni dvoje balkonové dveře, na fasádě jsou nástěnná světla.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-19",
+   "url": "fotky/foto-19.jpg",
+   "thumb": "fotky/mini-19.jpg",
+   "roomId": "terasa",
+   "position": [
+    4.548,
+    1.336,
+    12.146
+   ],
+   "yaw": -153.89,
+   "hfov": 101.16,
+   "offsetY": 0.0191,
+   "aspect": 1.5,
+   "title": "Terasa",
+   "caption": "Terasa podél pokoje s dlažbou a kovovým zábradlím.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   },
+   "fadeS": 0.25
+  },
+  {
+   "id": "foto-07",
+   "url": "fotky/foto-07.jpg",
+   "thumb": "fotky/mini-07.jpg",
+   "roomId": "terasa",
+   "position": [
+    5.607,
+    1.6,
+    11.319
+   ],
+   "yaw": 144.21,
+   "hfov": 100.4,
+   "offsetY": -0.0049,
+   "aspect": 1.5,
+   "title": "Terasa – výhled",
+   "caption": "Výhled z terasy do zeleně: vzrostlé stromy a dvůr.",
+   "doors": {
+    "open": [
+     "dv-chodba",
+     "dv-koupelna",
+     "dv-kuchyn-l",
+     "dv-kuchyn-p",
+     "dv-pokoj-terasa",
+     "dv-predsin-g",
+     "dv-terasa-2a",
+     "dv-terasa-2b",
+     "dv-vstup-byt",
+     "dv-vstup-garsonka"
+    ],
+    "closed": [
+     "dv-koupelna-g",
+     "dv-terasa-1a",
+     "dv-terasa-1b"
+    ]
+   },
+   "fadeS": 0.25
+  }
+ ]
+}
