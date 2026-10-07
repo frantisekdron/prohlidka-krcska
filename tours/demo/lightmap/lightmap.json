@@ -1,0 +1,1389 @@
+{
+ "version": 1,
+ "encoding": {
+  "type": "log2",
+  "range": 3.1876968138588606
+ },
+ "exposure": 3.669971739461198,
+ "variants": [
+  {
+   "key": "1751b34e",
+   "atlas": {
+    "high": "lightmap-1751b34e-2048.webp",
+    "low": "lightmap-1751b34e-1024.webp"
+   },
+   "uv": "lightmap-1751b34e-uv.bin",
+   "meshes": [
+    {
+     "name": "shell-plasterNeutral",
+     "verts": 364,
+     "tris": 240,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-wallTop",
+     "verts": 148,
+     "tris": 74,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-plaster",
+     "verts": 272,
+     "tris": 136,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-sandstone",
+     "verts": 100,
+     "tris": 50,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-pine",
+     "verts": 36,
+     "tris": 20,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-ceiling",
+     "verts": 46,
+     "tris": 26,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-herringbone",
+     "verts": 54,
+     "tris": 28,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-terrace",
+     "verts": 14,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-tiles",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-stone",
+     "verts": 200,
+     "tris": 100,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frame",
+     "verts": 960,
+     "tris": 480,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frostedGlass",
+     "verts": 4,
+     "tris": 2,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-metal",
+     "verts": 504,
+     "tris": 252,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-doorLeafFlush",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-paint",
+     "verts": 1920,
+     "tris": 960,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-paint",
+     "verts": 5692,
+     "tris": 4020,
+     "extra": 524,
+     "remap": 1158
+    },
+    {
+     "name": "furniture-metal",
+     "verts": 2342,
+     "tris": 1704,
+     "extra": 282,
+     "remap": 453
+    },
+    {
+     "name": "furniture-wood",
+     "verts": 120,
+     "tris": 60,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-ceramic",
+     "verts": 1296,
+     "tris": 1744,
+     "extra": 374,
+     "remap": 646
+    },
+    {
+     "name": "furniture-blackMetal",
+     "verts": 516,
+     "tris": 288,
+     "extra": 16,
+     "remap": 24
+    },
+    {
+     "name": "furniture-screen",
+     "verts": 608,
+     "tris": 504,
+     "extra": 48,
+     "remap": 70
+    },
+    {
+     "name": "door-frame-dv-vstup-garsonka",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-vstup-byt",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-1a",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-1b",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-2a",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-2b",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-kuchyn-l",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-kuchyn-p",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna-g",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-predsin-g",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-chodba",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-pokoj-terasa",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    }
+   ]
+  },
+  {
+   "key": "fc1688b5",
+   "atlas": {
+    "high": "lightmap-fc1688b5-2048.webp",
+    "low": "lightmap-fc1688b5-1024.webp"
+   },
+   "uv": "lightmap-fc1688b5-uv.bin",
+   "meshes": [
+    {
+     "name": "shell-plasterNeutral",
+     "verts": 372,
+     "tris": 248,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-wallTop",
+     "verts": 148,
+     "tris": 74,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-plaster",
+     "verts": 284,
+     "tris": 142,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-sandstone",
+     "verts": 100,
+     "tris": 50,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-pine",
+     "verts": 76,
+     "tris": 40,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-ceiling",
+     "verts": 46,
+     "tris": 26,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-herringbone",
+     "verts": 54,
+     "tris": 28,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-terrace",
+     "verts": 14,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-tiles",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-stone",
+     "verts": 200,
+     "tris": 100,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frame",
+     "verts": 960,
+     "tris": 480,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frostedGlass",
+     "verts": 4,
+     "tris": 2,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-metal",
+     "verts": 504,
+     "tris": 252,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-doorLeafFlush",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-paint",
+     "verts": 1920,
+     "tris": 960,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-paint",
+     "verts": 5692,
+     "tris": 4020,
+     "extra": 524,
+     "remap": 1158
+    },
+    {
+     "name": "furniture-metal",
+     "verts": 2342,
+     "tris": 1704,
+     "extra": 282,
+     "remap": 453
+    },
+    {
+     "name": "furniture-wood",
+     "verts": 120,
+     "tris": 60,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-ceramic",
+     "verts": 1296,
+     "tris": 1744,
+     "extra": 374,
+     "remap": 646
+    },
+    {
+     "name": "furniture-blackMetal",
+     "verts": 516,
+     "tris": 288,
+     "extra": 16,
+     "remap": 24
+    },
+    {
+     "name": "furniture-screen",
+     "verts": 608,
+     "tris": 504,
+     "extra": 48,
+     "remap": 70
+    },
+    {
+     "name": "door-frame-dv-vstup-garsonka",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-vstup-byt",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-1a",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-1b",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-2a",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-2b",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-probourani-l",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-probourani-p",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-kuchyn-l",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-kuchyn-p",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna-g",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-predsin-g",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-chodba",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-pokoj-terasa",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 96,
+     "tris": 48,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    }
+   ]
+  }
+ ],
+ "note": "Cycles 2048² × 768 vzorků, slunce 3.0, obloha 1.0, lampy 25.0 W, hustota 51 texelů/m, 2026-10-08 00:56"
+}

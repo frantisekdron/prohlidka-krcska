@@ -1,0 +1,26 @@
+{
+ "version": 1,
+ "note": "Výhled z oken promítnutý ze skutečných fotek bytu (tools/vyhled/vyhled.py); kde fotky ven nevidí, je průhledno.",
+ "photos": [
+  "foto-17",
+  "foto-19",
+  "foto-07"
+ ],
+ "cylinder": {
+  "url": "vyhled-valec.webp",
+  "center": [
+   5.551,
+   9.004
+  ],
+  "radius": 22.0,
+  "bottom": -1.2,
+  "top": 18.0,
+  "coverage": 0.083,
+  "sectors": [
+   [
+    99.14,
+    189.67
+   ]
+  ]
+ }
+}

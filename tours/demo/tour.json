@@ -3462,5 +3462,11 @@
     }
    ]
   }
- ]
+ ],
+ "lightmap": {
+  "url": "lightmap/lightmap.json"
+ },
+ "backdrop": {
+  "url": "vyhled/vyhled.json"
+ }
 }
