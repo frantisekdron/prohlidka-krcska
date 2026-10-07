@@ -2623,6 +2623,59 @@
     "y": 2.1,
     "variant": "sphere"
    }
+  ],
+  "edits": [
+   {
+    "id": "probourani-garsonka",
+    "kind": "breakthrough",
+    "wall": "garsonka-vychod",
+    "openings": [
+     {
+      "offset": 1.1018,
+      "width": 0.7525,
+      "sill": 0.0,
+      "height": 2.4,
+      "kind": "door",
+      "id": "dv-probourani-l",
+      "hinge": "a",
+      "swing": -1,
+      "open": true,
+      "merged": "b",
+      "frosted": true
+     },
+     {
+      "offset": 1.8543,
+      "width": 0.7525,
+      "sill": 0.0,
+      "height": 2.4,
+      "kind": "door",
+      "id": "dv-probourani-p",
+      "hinge": "b",
+      "swing": -1,
+      "open": true,
+      "merged": "a",
+      "frosted": true
+     }
+    ],
+    "markers": [
+     [
+      6.36,
+      1.45,
+      1.85
+     ],
+     [
+      6.87,
+      1.45,
+      1.85
+     ]
+    ],
+    "title": "Tady se dá probourat",
+    "note": "Návrh úpravy – ověřte statiku",
+    "rooms": [
+     "garsonka",
+     "pokoj-sever"
+    ]
+   }
   ]
  },
  "photos": [
