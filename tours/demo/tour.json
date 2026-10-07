@@ -2664,7 +2664,8 @@
    "staging": [
     {
      "url": "fotky/viz-12.jpg",
-     "thumb": "fotky/mini-viz-12.jpg"
+     "thumb": "fotky/mini-viz-12.jpg",
+     "note": "Ilustrační zařízení a návrh nové kuchyně na stejné dispozici – virtuální staging. Skutečný stav je na fotce."
     }
    ]
   },
@@ -2702,7 +2703,14 @@
      "dv-terasa-1b",
      "dv-vstup-byt"
     ]
-   }
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-11.jpg",
+     "thumb": "fotky/mini-viz-11.jpg",
+     "note": "Ilustrační zařízení a návrh nové kuchyně na stejné dispozici – virtuální staging. Skutečný stav je na fotce."
+    }
+   ]
   },
   {
    "id": "foto-10",
@@ -2738,7 +2746,14 @@
      "dv-terasa-1b",
      "dv-vstup-byt"
     ]
-   }
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-10.jpg",
+     "thumb": "fotky/mini-viz-10.jpg",
+     "note": "Ilustrační zařízení a návrh nové kuchyně na stejné dispozici – virtuální staging. Skutečný stav je na fotce."
+    }
+   ]
   },
   {
    "id": "foto-02",
@@ -2778,7 +2793,13 @@
      "dv-kuchyn-l": 135,
      "dv-kuchyn-p": 135
     }
-   }
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-02.jpg",
+     "thumb": "fotky/mini-viz-02.jpg"
+    }
+   ]
   },
   {
    "id": "foto-16",
@@ -2857,7 +2878,13 @@
      "dv-terasa-1b"
     ]
    },
-   "fadeS": 0.25
+   "fadeS": 0.25,
+   "staging": [
+    {
+     "url": "fotky/viz-17.jpg",
+     "thumb": "fotky/mini-viz-17.jpg"
+    }
+   ]
   },
   {
    "id": "foto-15",
@@ -2893,7 +2920,14 @@
      "dv-terasa-1a",
      "dv-terasa-1b"
     ]
-   }
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-15.jpg",
+     "thumb": "fotky/mini-viz-15.jpg",
+     "note": "Ilustrační zařízení a návrh nové kuchyně na stejné dispozici – virtuální staging. Skutečný stav je na fotce."
+    }
+   ]
   },
   {
    "id": "foto-g1",
@@ -2932,7 +2966,14 @@
      "dv-terasa-1a",
      "dv-terasa-1b"
     ]
-   }
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-g1.jpg",
+     "thumb": "fotky/mini-viz-g1.jpg",
+     "note": "Návrh zařízení a nové linky – virtuální staging."
+    }
+   ]
   },
   {
    "id": "foto-g3",
@@ -2945,8 +2986,8 @@
     0.95
    ],
    "yaw": -122,
-   "hfov": 90,
-   "offsetY": 0,
+   "hfov": 83.34,
+   "offsetY": -0.0622,
    "aspect": 1.5,
    "title": "Garsonka – kuchyňská linka (ilustrace)",
    "caption": "Pokoj garsonky s návrhem základní kuchyňské linky u stěny koupelny; vpravo dveře do předsíně.",
@@ -2972,7 +3013,13 @@
      "dv-terasa-1b"
     ]
    },
-   "pitch": -6
+   "staging": [
+    {
+     "url": "fotky/viz-g3.jpg",
+     "thumb": "fotky/mini-viz-g3.jpg",
+     "note": "Návrh zařízení a nové linky – virtuální staging."
+    }
+   ]
   },
   {
    "id": "foto-g2",
@@ -3011,7 +3058,13 @@
      "dv-terasa-1a",
      "dv-terasa-1b"
     ]
-   }
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-g2.jpg",
+     "thumb": "fotky/mini-viz-g2.jpg"
+    }
+   ]
   },
   {
    "id": "foto-13",
@@ -3092,7 +3145,13 @@
      "dv-terasa-1a",
      "dv-terasa-1b"
     ]
-   }
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-14.jpg",
+     "thumb": "fotky/mini-viz-14.jpg"
+    }
+   ]
   },
   {
    "id": "foto-05",
@@ -3170,7 +3229,13 @@
      "dv-terasa-2a",
      "dv-terasa-2b"
     ]
-   }
+   },
+   "staging": [
+    {
+     "url": "fotky/viz-01.jpg",
+     "thumb": "fotky/mini-viz-01.jpg"
+    }
+   ]
   },
   {
    "id": "foto-06",
@@ -3207,7 +3272,13 @@
      "dv-terasa-2a"
     ]
    },
-   "fadeS": 0.25
+   "fadeS": 0.25,
+   "staging": [
+    {
+     "url": "fotky/viz-06.jpg",
+     "thumb": "fotky/mini-viz-06.jpg"
+    }
+   ]
   },
   {
    "id": "foto-20",
@@ -3244,7 +3315,13 @@
      "dv-terasa-1b"
     ]
    },
-   "fadeS": 0.25
+   "fadeS": 0.25,
+   "staging": [
+    {
+     "url": "fotky/viz-20.jpg",
+     "thumb": "fotky/mini-viz-20.jpg"
+    }
+   ]
   },
   {
    "id": "foto-19",
@@ -3281,7 +3358,13 @@
      "dv-terasa-1b"
     ]
    },
-   "fadeS": 0.25
+   "fadeS": 0.25,
+   "staging": [
+    {
+     "url": "fotky/viz-19.jpg",
+     "thumb": "fotky/mini-viz-19.jpg"
+    }
+   ]
   },
   {
    "id": "foto-07",
@@ -3318,7 +3401,13 @@
      "dv-terasa-1b"
     ]
    },
-   "fadeS": 0.25
+   "fadeS": 0.25,
+   "staging": [
+    {
+     "url": "fotky/viz-07.jpg",
+     "thumb": "fotky/mini-viz-07.jpg"
+    }
+   ]
   }
  ]
 }
