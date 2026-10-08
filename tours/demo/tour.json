@@ -5,11 +5,12 @@
  "units": "m",
  "spawn": {
   "position": [
-   7.4,
+   9.37,
    0,
-   7
+   3.83
   ],
-  "yaw": -118
+  "yaw": 90,
+  "pitch": -4.1
  },
  "settings": {
   "eyeHeight": 1.65,
@@ -3840,13 +3841,16 @@
   "screens": [
    {
     "id": "tv-obyvak",
+    "title": "Video prohlídka",
+    "video": "video/prohlidka.mp4",
+    "videoSd": "video/prohlidka-720.mp4",
+    "poster": "video/prohlidka-poster.jpg",
     "roomId": "pokoj-sever",
     "x": 6.73,
-    "z": 3.85,
+    "z": 3.834,
     "facing": "E",
     "y": 1.05,
-    "size": 65,
-    "title": "Video prohlídka"
+    "size": 65
    }
   ]
  },
