@@ -1,16 +1,17 @@
 {
  "version": 1,
  "encoding": {
-  "type": "log2",
-  "range": 2.2048775509791088
+  "type": "pow",
+  "gamma": 2.2,
+  "scale": 1.6730499267578125
  },
- "exposure": 5.2598152602990345,
+ "exposure": 5.259854986547494,
  "variants": [
   {
    "key": "3b5e5df3",
    "atlas": {
-    "high": "lightmap-3b5e5df3-2048.webp",
-    "low": "lightmap-3b5e5df3-1024.webp"
+    "high": "lightmap-3b5e5df3-2048.jpg",
+    "low": "lightmap-3b5e5df3-1024.jpg"
    },
    "uv": "lightmap-3b5e5df3-uv.bin",
    "meshes": [
@@ -418,8 +419,8 @@
   {
    "key": "793c21aa",
    "atlas": {
-    "high": "lightmap-793c21aa-2048.webp",
-    "low": "lightmap-793c21aa-1024.webp"
+    "high": "lightmap-793c21aa-2048.jpg",
+    "low": "lightmap-793c21aa-1024.jpg"
    },
    "uv": "lightmap-793c21aa-uv.bin",
    "meshes": [
@@ -839,5 +840,5 @@
    ]
   }
  ],
- "note": "Cycles 2048² × 768 vzorků, slunce 3.0, obloha 1.0, lampy 10.0 W, hustota 54 texelů/m, 2026-10-08 01:42"
+ "note": "Cycles 2048² × 768 vzorků, slunce 3.0, obloha 1.0, lampy 10.0 W, hustota 54 texelů/m, 2026-10-08 02:22"
 }
