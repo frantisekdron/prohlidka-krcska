@@ -3836,7 +3836,19 @@
      }
     }
    ]
-  }
+  },
+  "screens": [
+   {
+    "id": "tv-obyvak",
+    "roomId": "pokoj-sever",
+    "x": 6.73,
+    "z": 3.85,
+    "facing": "E",
+    "y": 1.05,
+    "size": 65,
+    "title": "Video prohlídka"
+   }
+  ]
  },
  "photos": [
   {
@@ -4628,6 +4640,151 @@
  },
  "backdrop": {
   "url": "vyhled/vyhled.json"
+ },
+ "listing": {
+  "headline": "Byt 3+1 · Praha 4 – Krč",
+  "facts": [
+   {
+    "label": "Dispozice",
+    "value": "3+1"
+   },
+   {
+    "label": "Rozdělení",
+    "value": "nebo 2+1 a samostatná 1+kk"
+   },
+   {
+    "label": "Užitná plocha",
+    "value": "98,9 m²"
+   },
+   {
+    "label": "Stav",
+    "value": "Velmi dobrý"
+   },
+   {
+    "label": "Vlastnictví",
+    "value": "Osobní"
+   },
+   {
+    "label": "Dům",
+    "value": "Vilový dům"
+   },
+   {
+    "label": "Energetická třída",
+    "value": "G"
+   },
+   {
+    "label": "Parkování",
+    "value": "Stání za branou"
+   }
+  ],
+  "price": {
+   "amount": 15990000,
+   "currency": "CZK",
+   "note": "Cena podle inzerátu (4. 10. 2026)"
+  },
+  "areaM2": 98.9,
+  "highlights": [
+   "Terasa do zeleně",
+   "Samostatná garsonka",
+   "Po propojení 2 koupelny",
+   "Parkovací stání"
+  ],
+  "description": "Byt 3+1 o užitné ploše 98,9 m² ve vilovém domě v pražské Krči. Součástí je samostatná část, dnes garsonka – lze ji pronajímat, nebo propojit zpět; po propojení vznikne 3+1 se dvěma koupelnami. Terasa s výhledem do zeleně a parkovací stání za branou.",
+  "hero": {
+   "photo": "foto-02"
+  },
+  "source": "Údaje podle inzerátu realitní kanceláře (staženo 4. 10. 2026). Plochy místností jsou orientační podle půdorysu.",
+  "location": {
+   "label": "Praha 4 – Krč, ulice Krčská",
+   "map": {
+    "url": "lokalita/mapa.jpg",
+    "credit": "© OpenStreetMap contributors",
+    "pin": [
+     0.5,
+     0.5
+    ]
+   },
+   "nearby": [
+    {
+     "category": "MHD",
+     "name": "Antala Staška",
+     "distanceM": 190,
+     "walkMin": 3
+    },
+    {
+     "category": "MHD",
+     "name": "Na Staré cestě",
+     "distanceM": 210,
+     "walkMin": 3
+    },
+    {
+     "category": "MHD",
+     "name": "Ryšánka",
+     "distanceM": 290,
+     "walkMin": 5
+    },
+    {
+     "category": "Obchody",
+     "name": "Lešetický",
+     "distanceM": 270,
+     "walkMin": 4
+    },
+    {
+     "category": "Obchody",
+     "name": "Hala Yu",
+     "distanceM": 380,
+     "walkMin": 6
+    },
+    {
+     "category": "Obchody",
+     "name": "Ruské speciality",
+     "distanceM": 410,
+     "walkMin": 7
+    },
+    {
+     "category": "Školy a školky",
+     "name": "Mateřská škola Ryšánka",
+     "distanceM": 280,
+     "walkMin": 4
+    },
+    {
+     "category": "Školy a školky",
+     "name": "Dětská skupina U Mominky",
+     "distanceM": 460,
+     "walkMin": 7
+    },
+    {
+     "category": "Školy a školky",
+     "name": "VOSIS",
+     "distanceM": 630,
+     "walkMin": 10
+    },
+    {
+     "category": "Zdraví",
+     "name": "Dr. Max",
+     "distanceM": 290,
+     "walkMin": 5
+    },
+    {
+     "category": "Zdraví",
+     "name": "Pharmacentrum Budějovická",
+     "distanceM": 540,
+     "walkMin": 9
+    },
+    {
+     "category": "Zdraví",
+     "name": "Plicní (pneumologie) - Medicon",
+     "distanceM": 550,
+     "walkMin": 9
+    }
+   ],
+   "source": "Okolí: OpenStreetMap (ODbL), stav 8. 10. 2026; vzdálenost vzdušnou čarou, chůze odhadem."
+  },
+  "qr": {
+   "image": "lokalita/qr.png",
+   "label": "Prohlídka v telefonu",
+   "href": "https://frantisekdron.github.io/prohlidka-krcska/"
+  }
  },
  "branding": {
   "name": "Jan Chundela reality",
