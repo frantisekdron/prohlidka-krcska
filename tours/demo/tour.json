@@ -4628,5 +4628,46 @@
  },
  "backdrop": {
   "url": "vyhled/vyhled.json"
+ },
+ "branding": {
+  "name": "Jan Chundela reality",
+  "logo": {
+   "onDark": "branding/logo.png",
+   "alt": "Jan Chundela reality"
+  },
+  "colors": {
+   "primary": "#D2BA8A",
+   "accent": "#D2BA8A",
+   "panel": "#3D3937",
+   "text": "#F4F4F4"
+  },
+  "font": {
+   "family": "Montserrat",
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ]
+  },
+  "radius": 0,
+  "agent": {
+   "name": "Jan Chundela",
+   "role": "Realitní makléř",
+   "phone": "+420 773 998 265",
+   "email": "jan@chundelareality.cz",
+   "web": "https://www.chundelareality.cz/"
+  },
+  "cta": {
+   "label": "Domluvit prohlídku",
+   "href": "tel:+420773998265"
+  },
+  "intro": {
+   "subtitle": "Vilový dům v Krči · 98,9 m² · terasa s výhledem do zeleně"
+  },
+  "favicon": "branding/favicon.png",
+  "pageTitle": "Byt 3+1, Krčská – Praha 4 · 3D prohlídka · Jan Chundela reality",
+  "description": "3D prohlídka bytu 3+1 v Krčské, Praha 4 – Krč: procházka bytem, fotky v 3D, vizualizace zařízení. Nabízí Jan Chundela reality.",
+  "ogImage": "branding/og.jpg"
  }
 }
