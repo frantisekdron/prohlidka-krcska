@@ -2633,7 +2633,7 @@
      {
       "offset": 1.1018,
       "width": 0.7525,
-      "sill": 0.0,
+      "sill": 0,
       "height": 2.4,
       "kind": "door",
       "id": "dv-probourani-l",
@@ -2646,7 +2646,7 @@
      {
       "offset": 1.8543,
       "width": 0.7525,
-      "sill": 0.0,
+      "sill": 0,
       "height": 2.4,
       "kind": "door",
       "id": "dv-probourani-p",
@@ -2676,7 +2676,1167 @@
      "pokoj-sever"
     ]
    }
-  ]
+  ],
+  "furnishing": {
+   "label": "Vizualizace – ilustrační zařízení",
+   "note": "Nábytek podle vizualizací (AI staging) – ilustrace, byt se prodává prázdný.",
+   "hides": [
+    "pokoj-sever-svitidlo",
+    "kuchyn-linka-vychod",
+    "kuchyn-linka-jih",
+    "kuchyn-lednice",
+    "kuchyn-zarovka",
+    "koupelna-zebrik",
+    "garsonka-garnyz-1",
+    "garsonka-garnyz-2",
+    "garsonka-garnyz-3",
+    "garsonka-svitidlo-1",
+    "garsonka-svitidlo-2",
+    "garsonka-zebrik",
+    "pokoj-terasa-garnyz-sever",
+    "pokoj-terasa-garnyz-jih",
+    "pokoj-terasa-svitidlo"
+   ],
+   "items": [
+    {
+     "id": "obyvak-pohovka",
+     "roomId": "pokoj-sever",
+     "x": 10.19,
+     "z": 2.75,
+     "facing": "W",
+     "w": 2.3,
+     "d": 0.9,
+     "h": 0.78,
+     "kind": "sofa",
+     "color": "#EAE3D6",
+     "decor": false,
+     "variant": "rounded"
+    },
+    {
+     "id": "obyvak-polstare-1",
+     "roomId": "pokoj-sever",
+     "x": 10.1,
+     "z": 2.2,
+     "facing": "W",
+     "w": 0.87,
+     "d": 0.53,
+     "h": 0.38,
+     "kind": "model",
+     "y": 0.5,
+     "model": {
+      "url": "zarizeni/modely/throw_pillows_01.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#9AA58F",
+        "mode": "replace",
+        "roughness": 0.95
+       }
+      ]
+     }
+    },
+    {
+     "id": "obyvak-polstare-2",
+     "roomId": "pokoj-sever",
+     "x": 10.1,
+     "z": 3.3,
+     "facing": "W",
+     "w": 0.87,
+     "d": 0.53,
+     "h": 0.38,
+     "kind": "model",
+     "y": 0.5,
+     "model": {
+      "url": "zarizeni/modely/throw_pillows_01.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#D9CCB8",
+        "mode": "replace",
+        "roughness": 0.95
+       }
+      ]
+     }
+    },
+    {
+     "id": "obyvak-stolek",
+     "roomId": "pokoj-sever",
+     "x": 9.05,
+     "z": 2.75,
+     "facing": "W",
+     "w": 1.2,
+     "d": 0.62,
+     "h": 0.4,
+     "kind": "coffeeTable",
+     "color": "#D8CAB2",
+     "decor": false,
+     "variant": "oval"
+    },
+    {
+     "id": "obyvak-vaza-1",
+     "roomId": "pokoj-sever",
+     "x": 8.95,
+     "z": 2.58,
+     "facing": "W",
+     "w": 0.15,
+     "d": 0.15,
+     "h": 0.27,
+     "kind": "model",
+     "y": 0.4,
+     "model": {
+      "url": "zarizeni/modely/ceramic_vase_04.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#E4DCCD",
+        "mode": "tint"
+       }
+      ]
+     }
+    },
+    {
+     "id": "obyvak-vaza-2",
+     "roomId": "pokoj-sever",
+     "x": 9.12,
+     "z": 3.02,
+     "facing": "W",
+     "w": 0.15,
+     "d": 0.15,
+     "h": 0.22,
+     "kind": "model",
+     "y": 0.4,
+     "model": {
+      "url": "zarizeni/modely/ceramic_vase_02.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#E4DCCD",
+        "mode": "tint"
+       }
+      ]
+     }
+    },
+    {
+     "id": "obyvak-koberec",
+     "roomId": "pokoj-sever",
+     "x": 8.95,
+     "z": 2.75,
+     "facing": "W",
+     "w": 3,
+     "d": 2.2,
+     "h": 0.03,
+     "kind": "rug",
+     "color": "#EFE9DE"
+    },
+    {
+     "id": "obyvak-kreslo",
+     "roomId": "pokoj-sever",
+     "x": 7.4,
+     "z": 3.15,
+     "facing": "E",
+     "turn": 15,
+     "w": 0.72,
+     "d": 0.8,
+     "h": 0.78,
+     "kind": "armchair",
+     "color": "#EAE3D6",
+     "variant": "lounge"
+    },
+    {
+     "id": "obyvak-odkladaci-stolek",
+     "roomId": "pokoj-sever",
+     "x": 7.22,
+     "z": 3.98,
+     "facing": "E",
+     "w": 0.47,
+     "d": 0.38,
+     "h": 0.47,
+     "kind": "sideTable",
+     "color": "#C8A27A",
+     "decor": false
+    },
+    {
+     "id": "obyvak-lampa-stolni",
+     "roomId": "pokoj-sever",
+     "x": 7.22,
+     "z": 3.98,
+     "facing": "E",
+     "w": 0.3,
+     "d": 0.3,
+     "h": 0.45,
+     "kind": "tableLamp",
+     "y": 0.47,
+     "color": "#E4DCCD"
+    },
+    {
+     "id": "obyvak-fikus",
+     "roomId": "pokoj-sever",
+     "x": 8.45,
+     "z": 1.02,
+     "facing": "S",
+     "w": 0.45,
+     "d": 0.45,
+     "h": 1.75,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_01.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "match": "potted_plant_01_pot",
+        "color": "#E4DCCD",
+        "mode": "replace"
+       }
+      ]
+     },
+     "solid": true
+    },
+    {
+     "id": "obyvak-lampa",
+     "roomId": "pokoj-sever",
+     "x": 10.32,
+     "z": 4.35,
+     "facing": "W",
+     "w": 0.4,
+     "d": 0.4,
+     "h": 1.9,
+     "kind": "floorLamp",
+     "color": "#B89B6A",
+     "variant": "arc"
+    },
+    {
+     "id": "obyvak-obraz",
+     "roomId": "pokoj-sever",
+     "x": 10.625,
+     "z": 2.75,
+     "facing": "W",
+     "w": 1.25,
+     "d": 0.03,
+     "h": 0.95,
+     "kind": "painting",
+     "y": 1.725,
+     "image": "zarizeni/obrazy/obraz-obyvak.jpg"
+    },
+    {
+     "id": "obyvak-konzola",
+     "roomId": "pokoj-sever",
+     "x": 10.27,
+     "z": 5.6,
+     "facing": "N",
+     "w": 0.7,
+     "d": 0.32,
+     "h": 0.78,
+     "kind": "sideTable",
+     "color": "#C8A27A",
+     "decor": false
+    },
+    {
+     "id": "obyvak-konzola-vaza",
+     "roomId": "pokoj-sever",
+     "x": 10.12,
+     "z": 5.62,
+     "facing": "N",
+     "w": 0.15,
+     "d": 0.15,
+     "h": 0.3,
+     "kind": "model",
+     "y": 0.78,
+     "model": {
+      "url": "zarizeni/modely/ceramic_vase_04.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#E4DCCD",
+        "mode": "tint"
+       }
+      ]
+     }
+    },
+    {
+     "id": "obyvak-zaclony-1",
+     "roomId": "pokoj-sever",
+     "x": 7.417,
+     "z": 0.74,
+     "facing": "S",
+     "w": 1.36,
+     "d": 0.06,
+     "h": 2.95,
+     "kind": "curtain",
+     "color": "#EFE8DC",
+     "y": 0.03
+    },
+    {
+     "id": "obyvak-zaclony-2",
+     "roomId": "pokoj-sever",
+     "x": 9.344,
+     "z": 0.74,
+     "facing": "S",
+     "w": 1.6,
+     "d": 0.06,
+     "h": 2.95,
+     "kind": "curtain",
+     "color": "#EFE8DC",
+     "y": 0.03
+    },
+    {
+     "id": "obyvak-svitidlo",
+     "roomId": "pokoj-sever",
+     "x": 8.8,
+     "z": 2.2,
+     "facing": "S",
+     "w": 0.5,
+     "d": 0.5,
+     "kind": "pendant",
+     "variant": "paper",
+     "y": 2.2
+    },
+    {
+     "id": "kuchyn-linka-vychod",
+     "roomId": "kuchyn",
+     "x": 10.345,
+     "z": 8.564,
+     "facing": "W",
+     "w": 2.33,
+     "d": 0.6,
+     "h": 0.9,
+     "kind": "kitchenRun",
+     "color": "#F1EEE8",
+     "topColor": "#C49A6C",
+     "backColor": "#C9A57A",
+     "handleColor": "#F1EEE8",
+     "plinthColor": "#E6E2DB",
+     "parts": [
+      "hob",
+      "hood",
+      "uppers",
+      "backsplash"
+     ],
+     "hobAt": -0.434,
+     "decor": false,
+     "handleless": true,
+     "backWood": true
+    },
+    {
+     "id": "kuchyn-linka-jih",
+     "roomId": "kuchyn",
+     "x": 9.532,
+     "z": 9.429,
+     "facing": "N",
+     "w": 1.02,
+     "d": 0.6,
+     "h": 0.9,
+     "kind": "kitchenRun",
+     "color": "#F1EEE8",
+     "topColor": "#C49A6C",
+     "backColor": "#C9A57A",
+     "handleColor": "#F1EEE8",
+     "plinthColor": "#E6E2DB",
+     "parts": [
+      "sink",
+      "uppers",
+      "backsplash"
+     ],
+     "sinkAt": 0.2,
+     "decor": false,
+     "handleless": true,
+     "backWood": true
+    },
+    {
+     "id": "kuchyn-vez-trouba",
+     "roomId": "kuchyn",
+     "x": 8.722,
+     "z": 9.429,
+     "facing": "N",
+     "w": 0.6,
+     "d": 0.6,
+     "h": 2.2,
+     "kind": "kitchenRun",
+     "variant": "tower",
+     "color": "#F1EEE8",
+     "topColor": "#C49A6C",
+     "backColor": "#C9A57A",
+     "handleColor": "#F1EEE8",
+     "plinthColor": "#E6E2DB",
+     "parts": [
+      "oven"
+     ],
+     "decor": false,
+     "handleless": true,
+     "backWood": true
+    },
+    {
+     "id": "kuchyn-lednice-vestavna",
+     "roomId": "kuchyn",
+     "x": 8.08,
+     "z": 10.385,
+     "facing": "N",
+     "w": 0.6,
+     "d": 0.63,
+     "h": 2.2,
+     "kind": "kitchenRun",
+     "variant": "tower",
+     "color": "#F1EEE8",
+     "topColor": "#C49A6C",
+     "backColor": "#C9A57A",
+     "handleColor": "#F1EEE8",
+     "plinthColor": "#E6E2DB",
+     "parts": [],
+     "decor": false,
+     "handleless": true,
+     "backWood": true
+    },
+    {
+     "id": "kuchyn-stul",
+     "roomId": "kuchyn",
+     "x": 8.3,
+     "z": 7.75,
+     "facing": "S",
+     "w": 0.9,
+     "d": 0.9,
+     "h": 0.75,
+     "kind": "diningTable",
+     "variant": "round",
+     "color": "#C8A27A",
+     "decor": false
+    },
+    {
+     "id": "kuchyn-zidle-s",
+     "roomId": "kuchyn",
+     "x": 8.3,
+     "z": 7.18,
+     "facing": "S",
+     "w": 0.46,
+     "d": 0.5,
+     "h": 0.8,
+     "kind": "chair",
+     "variant": "wood",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "kuchyn-zidle-v",
+     "roomId": "kuchyn",
+     "x": 8.87,
+     "z": 7.75,
+     "facing": "W",
+     "w": 0.46,
+     "d": 0.5,
+     "h": 0.8,
+     "kind": "chair",
+     "variant": "wood",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "kuchyn-zidle-j",
+     "roomId": "kuchyn",
+     "x": 8.3,
+     "z": 8.32,
+     "facing": "N",
+     "w": 0.46,
+     "d": 0.5,
+     "h": 0.8,
+     "kind": "chair",
+     "variant": "wood",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "kuchyn-zidle-z",
+     "roomId": "kuchyn",
+     "x": 7.73,
+     "z": 7.75,
+     "facing": "E",
+     "w": 0.46,
+     "d": 0.5,
+     "h": 0.8,
+     "kind": "chair",
+     "variant": "wood",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "kuchyn-svitidlo-stul",
+     "roomId": "kuchyn",
+     "x": 8.3,
+     "z": 7.75,
+     "facing": "S",
+     "w": 0.45,
+     "d": 0.45,
+     "kind": "pendant",
+     "variant": "paper",
+     "y": 1.72
+    },
+    {
+     "id": "kuchyn-vaza",
+     "roomId": "kuchyn",
+     "x": 10.38,
+     "z": 7.65,
+     "facing": "W",
+     "w": 0.15,
+     "d": 0.15,
+     "h": 0.25,
+     "kind": "model",
+     "y": 0.9,
+     "model": {
+      "url": "zarizeni/modely/ceramic_vase_02.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#E4DCCD",
+        "mode": "tint"
+       }
+      ]
+     }
+    },
+    {
+     "id": "koupelna-zebrik-rucnik",
+     "roomId": "koupelna",
+     "x": 8.42,
+     "z": 12.032,
+     "facing": "N",
+     "w": 0.5,
+     "d": 0.06,
+     "h": 1.2,
+     "kind": "towelRadiator",
+     "color": "#F2F2F0",
+     "towelColor": "#9AA58F",
+     "y": 0.25
+    },
+    {
+     "id": "koupelna-obraz",
+     "roomId": "koupelna",
+     "x": 8.88,
+     "z": 12.07,
+     "facing": "N",
+     "w": 0.4,
+     "d": 0.03,
+     "h": 0.52,
+     "kind": "painting",
+     "y": 1.61,
+     "image": "zarizeni/obrazy/obraz-koupelna.jpg",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "koupelna-rostlina",
+     "roomId": "koupelna",
+     "x": 9.18,
+     "z": 11.9,
+     "facing": "N",
+     "w": 0.27,
+     "d": 0.27,
+     "h": 0.43,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_04.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0"
+     }
+    },
+    {
+     "id": "koupelna-predlozka",
+     "roomId": "koupelna",
+     "x": 9.62,
+     "z": 11.5,
+     "facing": "E",
+     "w": 0.8,
+     "d": 0.5,
+     "h": 0.015,
+     "kind": "rug",
+     "color": "#EDE6DA"
+    },
+    {
+     "id": "g-pohovka",
+     "roomId": "garsonka",
+     "x": 4.6,
+     "z": 1.24,
+     "facing": "S",
+     "w": 1.7,
+     "d": 0.85,
+     "h": 0.75,
+     "kind": "sofa",
+     "color": "#EAE3D6",
+     "decor": false,
+     "variant": "rounded"
+    },
+    {
+     "id": "g-polstare",
+     "roomId": "garsonka",
+     "x": 4.6,
+     "z": 1.33,
+     "facing": "S",
+     "w": 0.82,
+     "d": 0.5,
+     "h": 0.36,
+     "kind": "model",
+     "y": 0.5,
+     "model": {
+      "url": "zarizeni/modely/throw_pillows_01.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#9AA58F",
+        "mode": "replace"
+       }
+      ]
+     }
+    },
+    {
+     "id": "g-stul",
+     "roomId": "garsonka",
+     "x": 2.95,
+     "z": 2.3,
+     "facing": "S",
+     "w": 0.8,
+     "d": 0.8,
+     "h": 0.75,
+     "kind": "diningTable",
+     "variant": "round",
+     "color": "#C8A27A",
+     "decor": false
+    },
+    {
+     "id": "g-zidle-z",
+     "roomId": "garsonka",
+     "x": 2.4,
+     "z": 2.3,
+     "facing": "E",
+     "w": 0.45,
+     "d": 0.5,
+     "h": 0.8,
+     "kind": "chair",
+     "variant": "wood",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "g-zidle-v",
+     "roomId": "garsonka",
+     "x": 3.5,
+     "z": 2.3,
+     "facing": "W",
+     "w": 0.45,
+     "d": 0.5,
+     "h": 0.8,
+     "kind": "chair",
+     "variant": "wood",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "g-koberec",
+     "roomId": "garsonka",
+     "x": 3.6,
+     "z": 2.2,
+     "facing": "S",
+     "w": 2.6,
+     "d": 1.7,
+     "h": 0.02,
+     "kind": "rug",
+     "color": "#EFE9DE"
+    },
+    {
+     "id": "g-olivovnik",
+     "roomId": "garsonka",
+     "x": 6.1,
+     "z": 0.9,
+     "facing": "S",
+     "w": 0.4,
+     "d": 0.4,
+     "h": 1.55,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_01.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "match": "potted_plant_01_leaves",
+        "color": "#9DAA8E",
+        "mode": "tint"
+       }
+      ]
+     },
+     "solid": true
+    },
+    {
+     "id": "g-zaclony-1",
+     "roomId": "garsonka",
+     "x": 1.765,
+     "z": 0.742,
+     "facing": "S",
+     "w": 1.74,
+     "d": 0.06,
+     "h": 2.95,
+     "kind": "curtain",
+     "color": "#EFE8DC",
+     "y": 0.03
+    },
+    {
+     "id": "g-zaclony-2",
+     "roomId": "garsonka",
+     "x": 3.34,
+     "z": 0.742,
+     "facing": "S",
+     "w": 1.735,
+     "d": 0.06,
+     "h": 2.95,
+     "kind": "curtain",
+     "color": "#EFE8DC",
+     "y": 0.03
+    },
+    {
+     "id": "g-zaclony-3",
+     "roomId": "garsonka",
+     "x": 4.907,
+     "z": 0.742,
+     "facing": "S",
+     "w": 1.72,
+     "d": 0.06,
+     "h": 2.95,
+     "kind": "curtain",
+     "color": "#EFE8DC",
+     "y": 0.03
+    },
+    {
+     "id": "g-svitidlo-stul",
+     "roomId": "garsonka",
+     "x": 2.95,
+     "z": 2.3,
+     "facing": "S",
+     "w": 0.45,
+     "d": 0.45,
+     "kind": "pendant",
+     "variant": "paper",
+     "y": 1.72
+    },
+    {
+     "id": "g-svitidlo-2",
+     "roomId": "garsonka",
+     "x": 4.93,
+     "z": 2.2,
+     "facing": "S",
+     "w": 0.45,
+     "d": 0.45,
+     "kind": "pendant",
+     "variant": "paper",
+     "y": 2.1
+    },
+    {
+     "id": "gk-stolicka",
+     "roomId": "garsonka-koupelna",
+     "x": 6.15,
+     "z": 4.42,
+     "facing": "W",
+     "w": 0.45,
+     "d": 0.31,
+     "h": 0.31,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/wooden_stool_02.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#B48A5E",
+        "mode": "replace",
+        "roughness": 0.75
+       }
+      ]
+     },
+     "solid": true
+    },
+    {
+     "id": "gk-rostlina",
+     "roomId": "garsonka-koupelna",
+     "x": 6.2,
+     "z": 4.98,
+     "facing": "W",
+     "w": 0.27,
+     "d": 0.27,
+     "h": 0.43,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_04.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0"
+     }
+    },
+    {
+     "id": "gk-predlozka",
+     "roomId": "garsonka-koupelna",
+     "x": 5.7,
+     "z": 4.57,
+     "facing": "W",
+     "w": 0.8,
+     "d": 0.5,
+     "h": 0.015,
+     "kind": "rug",
+     "color": "#EDE6DA"
+    },
+    {
+     "id": "gk-zebrik-rucnik",
+     "roomId": "garsonka-koupelna",
+     "x": 5.1,
+     "z": 5.751,
+     "facing": "N",
+     "w": 0.5,
+     "d": 0.06,
+     "h": 1.2,
+     "kind": "towelRadiator",
+     "color": "#F2F2F0",
+     "towelColor": "#9AA58F",
+     "y": 0.25
+    },
+    {
+     "id": "loz-postel",
+     "roomId": "pokoj-terasa",
+     "x": 9.64,
+     "z": 15.2,
+     "facing": "W",
+     "w": 1.8,
+     "d": 2.1,
+     "h": 1.1,
+     "kind": "bed",
+     "variant": "upholstered",
+     "color": "#E8E0D2",
+     "decor": false
+    },
+    {
+     "id": "loz-polstare",
+     "roomId": "pokoj-terasa",
+     "x": 10.3,
+     "z": 15.2,
+     "facing": "W",
+     "w": 1,
+     "d": 0.63,
+     "h": 0.45,
+     "kind": "model",
+     "y": 0.62,
+     "model": {
+      "url": "zarizeni/modely/throw_pillows_01.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "color": "#9AA58F",
+        "mode": "replace"
+       }
+      ]
+     }
+    },
+    {
+     "id": "loz-nocni-stolek-s",
+     "roomId": "pokoj-terasa",
+     "x": 10.42,
+     "z": 13.98,
+     "facing": "W",
+     "w": 0.55,
+     "d": 0.45,
+     "h": 0.55,
+     "kind": "nightstand",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "loz-lampa-s",
+     "roomId": "pokoj-terasa",
+     "x": 10.42,
+     "z": 13.98,
+     "facing": "W",
+     "w": 0.3,
+     "d": 0.3,
+     "h": 0.45,
+     "kind": "tableLamp",
+     "y": 0.515,
+     "color": "#E4DCCD"
+    },
+    {
+     "id": "loz-nocni-stolek-j",
+     "roomId": "pokoj-terasa",
+     "x": 10.42,
+     "z": 16.42,
+     "facing": "W",
+     "w": 0.55,
+     "d": 0.45,
+     "h": 0.55,
+     "kind": "nightstand",
+     "color": "#C8A27A"
+    },
+    {
+     "id": "loz-lampa-j",
+     "roomId": "pokoj-terasa",
+     "x": 10.42,
+     "z": 16.42,
+     "facing": "W",
+     "w": 0.3,
+     "d": 0.3,
+     "h": 0.45,
+     "kind": "tableLamp",
+     "y": 0.515,
+     "color": "#E4DCCD"
+    },
+    {
+     "id": "loz-obklad",
+     "roomId": "pokoj-terasa",
+     "x": 10.678,
+     "z": 15.2,
+     "facing": "W",
+     "w": 3.5,
+     "d": 0.03,
+     "h": 1.2,
+     "kind": "panel",
+     "color": "#C9A57A"
+    },
+    {
+     "id": "loz-obraz",
+     "roomId": "pokoj-terasa",
+     "x": 10.66,
+     "z": 15.2,
+     "facing": "W",
+     "w": 1.2,
+     "d": 0.03,
+     "h": 0.84,
+     "kind": "painting",
+     "y": 1.84,
+     "image": "zarizeni/obrazy/obraz-loznice.jpg"
+    },
+    {
+     "id": "loz-koberec",
+     "roomId": "pokoj-terasa",
+     "x": 8.95,
+     "z": 15.2,
+     "facing": "W",
+     "w": 3,
+     "d": 2,
+     "h": 0.02,
+     "kind": "rug",
+     "color": "#EFE9DE"
+    },
+    {
+     "id": "loz-kreslo",
+     "roomId": "pokoj-terasa",
+     "x": 7.05,
+     "z": 14.28,
+     "facing": "E",
+     "w": 0.75,
+     "d": 0.75,
+     "h": 0.75,
+     "kind": "armchair",
+     "color": "#EAE3D6",
+     "variant": "lounge"
+    },
+    {
+     "id": "loz-olivovnik",
+     "roomId": "pokoj-terasa",
+     "x": 6.88,
+     "z": 16.62,
+     "facing": "S",
+     "w": 0.4,
+     "d": 0.4,
+     "h": 1.55,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_01.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "match": "potted_plant_01_leaves",
+        "color": "#9DAA8E",
+        "mode": "tint"
+       }
+      ]
+     },
+     "solid": true
+    },
+    {
+     "id": "loz-kosik",
+     "roomId": "pokoj-terasa",
+     "x": 7.32,
+     "z": 16.8,
+     "facing": "N",
+     "w": 0.37,
+     "d": 0.27,
+     "h": 0.22,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/wicker_basket_02.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0"
+     }
+    },
+    {
+     "id": "loz-zaclony-okno",
+     "roomId": "pokoj-terasa",
+     "x": 8.645,
+     "z": 17.12,
+     "facing": "N",
+     "w": 1.8,
+     "d": 0.06,
+     "h": 2.95,
+     "kind": "curtain",
+     "color": "#EFE8DC",
+     "y": 0.03
+    },
+    {
+     "id": "loz-zaclony-dvere-sever",
+     "roomId": "pokoj-terasa",
+     "x": 6.583,
+     "z": 13.22,
+     "facing": "E",
+     "w": 1.6,
+     "d": 0.06,
+     "h": 2.95,
+     "kind": "curtain",
+     "color": "#EFE8DC",
+     "y": 0.03
+    },
+    {
+     "id": "loz-zaclony-dvere-jih",
+     "roomId": "pokoj-terasa",
+     "x": 6.583,
+     "z": 15.34,
+     "facing": "E",
+     "w": 1.6,
+     "d": 0.06,
+     "h": 2.95,
+     "kind": "curtain",
+     "color": "#EFE8DC",
+     "y": 0.03
+    },
+    {
+     "id": "loz-svitidlo",
+     "roomId": "pokoj-terasa",
+     "x": 8.59,
+     "z": 15.5,
+     "facing": "S",
+     "w": 0.5,
+     "d": 0.5,
+     "kind": "pendant",
+     "variant": "paper",
+     "y": 2.25
+    },
+    {
+     "id": "ter-bistro",
+     "roomId": "terasa",
+     "x": 5.15,
+     "z": 14.28,
+     "facing": "S",
+     "w": 0.78,
+     "d": 1.83,
+     "h": 0.86,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/outdoor_table_chair_set_01.glb",
+      "fit": "contain",
+      "credit": "Poly Haven, CC0 1.0"
+     },
+     "solid": true
+    },
+    {
+     "id": "ter-koberec",
+     "roomId": "terasa",
+     "x": 5.3,
+     "z": 14.28,
+     "facing": "S",
+     "w": 1.1,
+     "d": 2.3,
+     "h": 0.01,
+     "kind": "rug",
+     "color": "#D3C8B6"
+    },
+    {
+     "id": "ter-olivovnik",
+     "roomId": "terasa",
+     "x": 5.8,
+     "z": 16.35,
+     "facing": "S",
+     "w": 0.36,
+     "d": 0.36,
+     "h": 1.35,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_01.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0",
+      "tint": [
+       {
+        "match": "potted_plant_01_leaves",
+        "color": "#9DAA8E",
+        "mode": "tint"
+       }
+      ]
+     },
+     "solid": true
+    },
+    {
+     "id": "ter-bylinky-1",
+     "roomId": "terasa",
+     "x": 4.95,
+     "z": 15.85,
+     "facing": "S",
+     "w": 0.3,
+     "d": 0.3,
+     "h": 0.35,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_04.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0"
+     }
+    },
+    {
+     "id": "ter-bylinky-2",
+     "roomId": "terasa",
+     "x": 4.97,
+     "z": 15.5,
+     "facing": "S",
+     "w": 0.3,
+     "d": 0.3,
+     "h": 0.35,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/planter_pot_clay.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0"
+     }
+    },
+    {
+     "id": "ter-bylinky-3",
+     "roomId": "terasa",
+     "x": 4.95,
+     "z": 11.15,
+     "facing": "S",
+     "w": 0.3,
+     "d": 0.3,
+     "h": 0.35,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_04.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0"
+     }
+    },
+    {
+     "id": "ter-bylinky-4",
+     "roomId": "terasa",
+     "x": 4.95,
+     "z": 11.45,
+     "facing": "S",
+     "w": 0.3,
+     "d": 0.3,
+     "h": 0.35,
+     "kind": "model",
+     "model": {
+      "url": "zarizeni/modely/potted_plant_04.glb",
+      "fit": "height",
+      "credit": "Poly Haven, CC0 1.0"
+     }
+    }
+   ]
+  }
  },
  "photos": [
   {

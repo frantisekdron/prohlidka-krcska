@@ -3,9 +3,9 @@
  "encoding": {
   "type": "pow",
   "gamma": 2.2,
-  "scale": 1.400625467300415
+  "scale": 1.400620937347412
  },
- "exposure": 6.282907319228775,
+ "exposure": 6.28292763969816,
  "variants": [
   {
    "key": "3b5e5df3",
@@ -414,7 +414,11 @@
      "extra": 0,
      "remap": 0
     }
-   ]
+   ],
+   "state": {
+    "furnished": false,
+    "edits": []
+   }
   },
   {
    "key": "793c21aa",
@@ -837,8 +841,954 @@
      "extra": 0,
      "remap": 0
     }
-   ]
+   ],
+   "state": {
+    "furnished": false,
+    "edits": [
+     "probourani-garsonka"
+    ]
+   }
+  },
+  {
+   "key": "d459bdee",
+   "atlas": {
+    "high": "lightmap-d459bdee-2048.jpg",
+    "low": "lightmap-d459bdee-1024.jpg"
+   },
+   "uv": "lightmap-d459bdee-uv.bin",
+   "meshes": [
+    {
+     "name": "shell-plasterNeutral",
+     "verts": 372,
+     "tris": 248,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-wallTop",
+     "verts": 148,
+     "tris": 74,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-plaster",
+     "verts": 284,
+     "tris": 142,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-sandstone",
+     "verts": 100,
+     "tris": 50,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-pine",
+     "verts": 76,
+     "tris": 40,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-ceiling",
+     "verts": 46,
+     "tris": 26,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-herringbone",
+     "verts": 54,
+     "tris": 28,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-terrace",
+     "verts": 14,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-tiles",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-stone",
+     "verts": 200,
+     "tris": 100,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frame",
+     "verts": 960,
+     "tris": 480,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frostedGlass",
+     "verts": 4,
+     "tris": 2,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-doorLeafFlush",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-paint",
+     "verts": 1920,
+     "tris": 960,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-paint",
+     "verts": 1872,
+     "tris": 936,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-wood",
+     "verts": 72,
+     "tris": 36,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-ceramic",
+     "verts": 1272,
+     "tris": 1732,
+     "extra": 436,
+     "remap": 738
+    },
+    {
+     "name": "furniture-screen",
+     "verts": 304,
+     "tris": 252,
+     "extra": 40,
+     "remap": 58
+    },
+    {
+     "name": "furnishing-fabric",
+     "verts": 7008,
+     "tris": 9288,
+     "extra": 2108,
+     "remap": 3566
+    },
+    {
+     "name": "furnishing-wood",
+     "verts": 5144,
+     "tris": 3332,
+     "extra": 38,
+     "remap": 57
+    },
+    {
+     "name": "furnishing-rug",
+     "verts": 2448,
+     "tris": 3360,
+     "extra": 952,
+     "remap": 1644
+    },
+    {
+     "name": "furnishing-ceramic",
+     "verts": 627,
+     "tris": 972,
+     "extra": 210,
+     "remap": 511
+    },
+    {
+     "name": "furnishing-stone",
+     "verts": 118,
+     "tris": 112,
+     "extra": 8,
+     "remap": 12
+    },
+    {
+     "name": "furnishing-paint",
+     "verts": 2518,
+     "tris": 1506,
+     "extra": 96,
+     "remap": 134
+    },
+    {
+     "name": "furnishing-screen",
+     "verts": 304,
+     "tris": 252,
+     "extra": 20,
+     "remap": 30
+    },
+    {
+     "name": "door-frame-dv-vstup-garsonka",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-vstup-byt",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-1a",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-1b",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-2a",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-2b",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-probourani-l",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-probourani-p",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-kuchyn-l",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-kuchyn-p",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna-g",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-predsin-g",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-chodba",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-pokoj-terasa",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    }
+   ],
+   "state": {
+    "furnished": true,
+    "edits": [
+     "probourani-garsonka"
+    ]
+   }
+  },
+  {
+   "key": "bc1e028b",
+   "atlas": {
+    "high": "lightmap-bc1e028b-2048.jpg",
+    "low": "lightmap-bc1e028b-1024.jpg"
+   },
+   "uv": "lightmap-bc1e028b-uv.bin",
+   "meshes": [
+    {
+     "name": "shell-plasterNeutral",
+     "verts": 364,
+     "tris": 240,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-wallTop",
+     "verts": 148,
+     "tris": 74,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-plaster",
+     "verts": 272,
+     "tris": 136,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-sandstone",
+     "verts": 100,
+     "tris": 50,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-pine",
+     "verts": 36,
+     "tris": 20,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-ceiling",
+     "verts": 46,
+     "tris": 26,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-herringbone",
+     "verts": 54,
+     "tris": 28,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-terrace",
+     "verts": 14,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-tiles",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-stone",
+     "verts": 200,
+     "tris": 100,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frame",
+     "verts": 960,
+     "tris": 480,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-frostedGlass",
+     "verts": 4,
+     "tris": 2,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-doorLeafFlush",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "shell-paint",
+     "verts": 1920,
+     "tris": 960,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-paint",
+     "verts": 1872,
+     "tris": 936,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-wood",
+     "verts": 72,
+     "tris": 36,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "furniture-ceramic",
+     "verts": 1272,
+     "tris": 1732,
+     "extra": 436,
+     "remap": 738
+    },
+    {
+     "name": "furniture-screen",
+     "verts": 304,
+     "tris": 252,
+     "extra": 40,
+     "remap": 58
+    },
+    {
+     "name": "furnishing-fabric",
+     "verts": 7008,
+     "tris": 9288,
+     "extra": 2108,
+     "remap": 3566
+    },
+    {
+     "name": "furnishing-wood",
+     "verts": 5144,
+     "tris": 3332,
+     "extra": 40,
+     "remap": 60
+    },
+    {
+     "name": "furnishing-rug",
+     "verts": 2448,
+     "tris": 3360,
+     "extra": 952,
+     "remap": 1644
+    },
+    {
+     "name": "furnishing-ceramic",
+     "verts": 627,
+     "tris": 972,
+     "extra": 210,
+     "remap": 511
+    },
+    {
+     "name": "furnishing-stone",
+     "verts": 118,
+     "tris": 112,
+     "extra": 8,
+     "remap": 12
+    },
+    {
+     "name": "furnishing-paint",
+     "verts": 2518,
+     "tris": 1506,
+     "extra": 96,
+     "remap": 134
+    },
+    {
+     "name": "furnishing-screen",
+     "verts": 304,
+     "tris": 252,
+     "extra": 20,
+     "remap": 30
+    },
+    {
+     "name": "door-frame-dv-vstup-garsonka",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-vstup-byt",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-1a",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-1b",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-2a",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-terasa-2b",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-kuchyn-l",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-kuchyn-p",
+     "verts": 144,
+     "tris": 72,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna-g",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-predsin-g",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-chodba",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-koupelna",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "door-frame-dv-pokoj-terasa",
+     "verts": 216,
+     "tris": 108,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    },
+    {
+     "name": "(bez jména)",
+     "verts": 24,
+     "tris": 12,
+     "extra": 0,
+     "remap": 0
+    }
+   ],
+   "state": {
+    "furnished": true,
+    "edits": []
+   }
   }
  ],
- "note": "Cycles 2048² × 768 vzorků, slunce 3.0, obloha 1.0, lampy 10.0 W, hustota 54 texelů/m, 2026-10-08 02:44"
+ "note": "Cycles 2048² × 768 vzorků, slunce 3.0, obloha 1.0, lampy 10.0 W, hustota 48 texelů/m, 2026-10-08 11:41"
 }
