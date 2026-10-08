@@ -3,9 +3,9 @@
  "encoding": {
   "type": "pow",
   "gamma": 2.2,
-  "scale": 1.6730499267578125
+  "scale": 1.400625467300415
  },
- "exposure": 5.259854986547494,
+ "exposure": 6.282907319228775,
  "variants": [
   {
    "key": "3b5e5df3",
@@ -840,5 +840,5 @@
    ]
   }
  ],
- "note": "Cycles 2048² × 768 vzorků, slunce 3.0, obloha 1.0, lampy 10.0 W, hustota 54 texelů/m, 2026-10-08 02:22"
+ "note": "Cycles 2048² × 768 vzorků, slunce 3.0, obloha 1.0, lampy 10.0 W, hustota 54 texelů/m, 2026-10-08 02:44"
 }
